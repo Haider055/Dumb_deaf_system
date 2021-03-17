@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dumb.dumb_deaf_system.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T09:55:49" hostname="haider-HP-EliteBook-840-G1" time="0.003">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.dumb.dumb_deaf_system.ExampleUnitTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

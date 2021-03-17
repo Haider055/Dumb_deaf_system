@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav">
+
+        <item
+        android:checkable="true"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home">
+        </item>
+        <item
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_person_pin_24"
+            android:id="@+id/nav_profile"
+            android:title="My Profile">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_add_24"
+            android:id="@+id/add_talk"
+            android:checkable="true"
+            android:title="Request a Talk">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_perm_identity_24"
+            android:id="@+id/my"
+            android:checkable="true"
+            android:title="Personal Talks">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_playlist_add_24"
+            android:id="@+id/myrequest"
+            android:checkable="true"
+            android:title="My requests">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:id="@+id/fav"
+            android:checkable="true"
+            android:title="My Favorite">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_login_24"
+            android:id="@+id/login"
+            android:checkable="true"
+            android:title="Login now">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_arrow_back_24"
+            android:id="@+id/logout"
+            android:checkable="true"
+            android:title="Logout">
+        </item>
+    </group>
+</menu>

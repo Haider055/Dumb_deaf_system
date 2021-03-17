@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                app:title="Menu"
+                android:id="@+id/tool"
+                app:titleTextColor="#ffffff"
+                android:background="#216582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_below="@id/tool"
+                android:layout_margin="8dp"
+                android:background="@drawable/search_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </SearchView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/categoryrec"
+                android:layout_below="@id/searchView"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        app:headerLayout="@layout/headerofnav"
+        android:layout_gravity="start"
+        android:id="@+id/navigation"
+        app:menu="@menu/drawermenu"
+        android:layout_height="match_parent">
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
