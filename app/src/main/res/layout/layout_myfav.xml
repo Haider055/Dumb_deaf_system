@@ -14,8 +14,9 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:layout_toLeftOf="@id/dell"
             android:id="@+id/heading"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="12dp"
@@ -38,31 +39,19 @@
             android:layout_height="wrap_content">
         </TextView>
 
-        <TextView
-            android:id="@+id/category"
-            android:text="Heading"
-            android:textColor="#323233"
-            android:textSize="13dp"
-            android:layout_marginRight="12dp"
+        <ImageView
+            android:background="@color/transparent"
+            android:textAlignment="center"
+            android:textColor="#3AEAA2"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:id="@+id/dell"
             android:layout_alignParentRight="true"
-            android:layout_below="@id/detail"
-            android:layout_marginLeft="12dp"
+            android:text="Remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        </TextView>
-        <TextView
-            android:id="@+id/date"
-            android:text="Heading"
-            android:textColor="#323233"
-            android:textSize="13dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginRight="12dp"
-            android:layout_alignParentRight="true"
-            android:layout_below="@id/category"
-            android:layout_marginLeft="12dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        </TextView>
+        </ImageView>
 
     </RelativeLayout>
 </com.google.android.material.card.MaterialCardView>
