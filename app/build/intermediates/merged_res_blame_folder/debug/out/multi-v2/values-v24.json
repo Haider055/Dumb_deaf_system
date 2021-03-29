@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android Project\\Dumb_deaf_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "D:\\Android Project\\dumb deaf\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ali Pracha\\.gradle\\caches\\transforms-2\\files-2.1\\f1c839087f3a1b5f3ba3c8e4ccef7129\\media-1.0.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\ali pracha\\.gradle\\caches\\transforms-2\\files-2.1\\f1c839087f3a1b5f3ba3c8e4ccef7129\\media-1.0.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ali Pracha\\.gradle\\caches\\transforms-2\\files-2.1\\4c7e36aac35272fb5c5c7e51ac3c9317\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\ali pracha\\.gradle\\caches\\transforms-2\\files-2.1\\4c7e36aac35272fb5c5c7e51ac3c9317\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

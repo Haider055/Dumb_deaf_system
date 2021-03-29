@@ -6,369 +6,369 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml
+8-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml
+9-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.SEND_SMS" />
-11-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:7:5-67
-11-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:7:22-64
+11-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:7:5-67
+11-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:7:22-64
 12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-12-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:8:5-70
-12-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:8:22-67
+12-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:5-70
+12-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:22-67
 13    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
-13-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:9:5-80
-13-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:9:22-77
+13-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:9:5-80
+13-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:9:22-77
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:10:5-65
-14-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:10:22-62
+14-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:5-65
+14-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:22-62
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:11:5-79
-15-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:11:22-76
+15-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:11:5-79
+15-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:11:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:5-67
-16-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:22-64
+16-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:5-67
+16-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:22-64
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:5-79
-17-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:22-76
+17-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:5-79
+17-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:22-76
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:5-79
-18-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:22-76
+18-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:5-79
+18-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:22-76
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-19-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:5-76
-19-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:22-73
+19-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:5-76
+19-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:22-73
 20    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-20-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:17:5-84
-20-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:17:22-81
+20-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:5-84
+20-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:22-81
 21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:18:5-82
-21-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:18:22-79
+21-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:18:5-82
+21-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:18:22-79
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:5-80
-22-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:22-77
+22-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:5-80
+22-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:22-77
 23    <uses-permission android:name="android.permission.INTERNET" />
-23-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:5-67
-23-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:22-64
+23-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:5-67
+23-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:22-64
 24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-24-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:5-81
-24-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:22-78
+24-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:22:5-81
+24-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:22:22-78
 25    <uses-permission android:name="android.permission.WAKE_LOCK" />
-25-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:24:5-68
-25-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:24:22-65
+25-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:24:5-68
+25-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:24:22-65
 26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-26-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:5-76
-26-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:22-73
+26-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:5-76
+26-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:22-73
 27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-27-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:5-80
-27-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:22-77
+27-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:5-80
+27-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:22-77
 28    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-28-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:28:5-80
-28-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:28:22-77
+28-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:5-80
+28-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:22-77
 29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-29-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:29:5-81
-29-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:29:22-78
+29-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:29:5-81
+29-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:29:22-78
 30    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-30-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:30:5-81
-30-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:30:22-78
+30-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:5-81
+30-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:22-78
 31    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-31-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:31:5-88
-31-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:31:22-85
+31-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:31:5-88
+31-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:31:22-85
 32    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-32-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:5-80
-32-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:22-77
+32-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:5-80
+32-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:22-77
 33    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-33-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:28:5-80
-33-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:28:22-77
+33-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:5-80
+33-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:22-77
 34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-34-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:29:5-81
-34-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:29:22-78
+34-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:29:5-81
+34-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:29:22-78
 35    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-35-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:30:5-81
-35-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:30:22-78
+35-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:5-81
+35-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:22-78
 36    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-36-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:31:5-88
-36-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:31:22-85
+36-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:31:5-88
+36-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:31:22-85
 37
 38    <application
-38-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:42:5-94:19
+38-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:42:5-94:19
 39        android:allowBackup="true"
-39-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:43:9-35
+39-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:43:9-35
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.3.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\390cf51aa60060bd0d3cd94108add78e\core-1.3.1\AndroidManifest.xml:24:18-86
+40-->[androidx.core:core:1.3.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\390cf51aa60060bd0d3cd94108add78e\core-1.3.1\AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
 42        android:icon="@mipmap/ic_launcher"
-42-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:44:9-43
+42-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:44:9-43
 43        android:label="@string/app_name"
-43-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:45:9-41
+43-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:45:9-41
 44        android:roundIcon="@mipmap/ic_launcher_round"
-44-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:46:9-54
+44-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:46:9-54
 45        android:supportsRtl="true"
-45-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:47:9-35
+45-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:47:9-35
 46        android:testOnly="true"
 47        android:theme="@style/Theme.Dumb_deaf_system"
-47-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:48:9-54
+47-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:48:9-54
 48        android:usesCleartextTraffic="true" >
-48-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:49:9-44
+48-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:49:9-44
 49        <activity android:name="com.dumb.dumb_deaf_system.otp_screen" />
-49-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:50:9-57
-49-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:50:19-45
+49-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:50:9-57
+49-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:50:19-45
 50        <activity
-50-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:51:9-53:81
+50-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:51:9-53:81
 51            android:name="com.dumb.dumb_deaf_system.myfavourites"
-51-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:52:13-41
+51-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:52:13-41
 52            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-52-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:53:13-78
+52-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:53:13-78
 53        <activity
-53-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:54:9-56:81
+53-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:54:9-56:81
 54            android:name="com.dumb.dumb_deaf_system.my_requests"
-54-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:55:13-40
+54-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:55:13-40
 55            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-55-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:56:13-78
+55-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:56:13-78
 56        <activity
-56-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:57:9-59:81
+56-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:57:9-59:81
 57            android:name="com.dumb.dumb_deaf_system.mytalks"
-57-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:58:13-36
+57-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:58:13-36
 58            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-58-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:59:13-78
+58-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:59:13-78
 59        <activity
-59-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:60:9-62:81
+59-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:60:9-62:81
 60            android:name="com.dumb.dumb_deaf_system.requesttalk"
-60-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:61:13-40
+60-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:61:13-40
 61            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-61-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:62:13-78
+61-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:62:13-78
 62        <activity
-62-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:63:9-65:81
+62-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:63:9-65:81
 63            android:name="com.dumb.dumb_deaf_system.profile"
-63-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:64:13-36
+63-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:64:13-36
 64            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-64-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:65:13-78
+64-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:65:13-78
 65        <activity
-65-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:66:9-68:81
+65-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:66:9-68:81
 66            android:name="com.dumb.dumb_deaf_system.talks"
-66-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:67:13-34
+66-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:67:13-34
 67            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-67-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:68:13-78
+67-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:68:13-78
 68        <activity
-68-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:69:9-71:81
+68-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:69:9-71:81
 69            android:name="com.dumb.dumb_deaf_system.details"
-69-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:70:13-36
+69-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:70:13-36
 70            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-70-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:71:13-78
+70-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:71:13-78
 71        <activity
-71-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:72:9-74:81
+71-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:72:9-74:81
 72            android:name="com.dumb.dumb_deaf_system.signup"
-72-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:73:13-35
+72-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:73:13-35
 73            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-73-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:74:13-78
+73-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:74:13-78
 74        <activity
-74-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:75:9-77:81
+74-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:75:9-77:81
 75            android:name="com.dumb.dumb_deaf_system.Loginpage"
-75-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:76:13-38
+75-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:76:13-38
 76            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-76-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:77:13-78
+76-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:77:13-78
 77        <activity
-77-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:78:9-80:81
+77-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:78:9-80:81
 78            android:name="com.dumb.dumb_deaf_system.MainActivity"
-78-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:79:13-41
+78-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:79:13-41
 79            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-79-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:80:13-78
+79-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:80:13-78
 80        <activity
-80-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:81:9-89:20
+80-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:81:9-89:20
 81            android:name="com.dumb.dumb_deaf_system.splashscreen"
-81-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:82:13-41
+81-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:82:13-41
 82            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
-82-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:83:13-78
+82-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:83:13-78
 83            <intent-filter>
-83-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:84:13-88:29
+83-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:84:13-88:29
 84                <action android:name="android.intent.action.MAIN" />
-84-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:85:17-69
-84-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:85:25-66
+84-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:85:17-69
+84-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:85:25-66
 85
 86                <category android:name="android.intent.category.LAUNCHER" />
-86-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:87:17-77
-86-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:87:27-74
+86-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:87:17-77
+86-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:87:27-74
 87            </intent-filter>
 88        </activity>
 89
 90        <meta-data
-90-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:91:9-93:57
+90-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:91:9-93:57
 91            android:name="preloaded_fonts"
-91-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:92:13-43
+91-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:92:13-43
 92            android:resource="@array/preloaded_fonts" />
-92-->E:\Android Project\Dumb_deaf_system\app\src\main\AndroidManifest.xml:93:13-54
+92-->D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:93:13-54
 93
 94        <provider
-94-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\84a0761064de5271a1ea768252385c01\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+94-->[com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 95            android:name="com.squareup.picasso.PicassoProvider"
-95-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\84a0761064de5271a1ea768252385c01\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+95-->[com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 96            android:authorities="com.dumb.dumb_deaf_system.com.squareup.picasso"
-96-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\84a0761064de5271a1ea768252385c01\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+96-->[com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 97            android:exported="false" />
-97-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\84a0761064de5271a1ea768252385c01\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+97-->[com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 98
 99        <service android:name="com.example.jean.jcplayer.service.JcPlayerService" />
-99-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:9-85
-99-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:18-82
+99-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:9-85
+99-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:18-82
 100
 101        <receiver
-101-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:20:9-23:40
+101-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:20:9-23:40
 102            android:name="com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
-102-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:21:13-103
+102-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:21:13-103
 103            android:enabled="true"
-103-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:22:13-35
+103-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:22:13-35
 104            android:exported="false" />
-104-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\2ec59d5c336892ddf2a753ede2947c5c\jetified-JcPlayer-2.7.0\AndroidManifest.xml:23:13-37
+104-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:23:13-37
 105
 106        <activity
-106-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:27:9-44:20
+106-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:27:9-44:20
 107            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-107-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:28:13-80
+107-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:28:13-80
 108            android:excludeFromRecents="true"
-108-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:29:13-46
+108-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:29:13-46
 109            android:exported="true"
-109-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:30:13-36
+109-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:30:13-36
 110            android:launchMode="singleTask"
-110-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:31:13-44
+110-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:31:13-44
 111            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-111-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:32:13-72
+111-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:32:13-72
 112            <intent-filter>
-112-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:33:13-43:29
+112-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:33:13-43:29
 113                <action android:name="android.intent.action.VIEW" />
-113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
-113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
+113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
+113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
 114
 115                <category android:name="android.intent.category.DEFAULT" />
-115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
 116                <category android:name="android.intent.category.BROWSABLE" />
-116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
-116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
+116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
+116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
 117
 118                <data
-118-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
+118-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
 119                    android:host="firebase.auth"
-119-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
+119-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
 120                    android:path="/"
-120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
+120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
 121                    android:scheme="genericidp" />
-121-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
+121-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
 122            </intent-filter>
 123        </activity>
 124        <activity
-124-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:45:9-62:20
+124-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:45:9-62:20
 125            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-125-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:46:13-79
+125-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:46:13-79
 126            android:excludeFromRecents="true"
-126-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:47:13-46
+126-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:47:13-46
 127            android:exported="true"
-127-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:48:13-36
+127-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:48:13-36
 128            android:launchMode="singleTask"
-128-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:49:13-44
+128-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:49:13-44
 129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-129-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:50:13-72
+129-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:50:13-72
 130            <intent-filter>
-130-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:51:13-61:29
+130-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:51:13-61:29
 131                <action android:name="android.intent.action.VIEW" />
-131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
-131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
+131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
 132
 133                <category android:name="android.intent.category.DEFAULT" />
-133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
 134                <category android:name="android.intent.category.BROWSABLE" />
-134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
-134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
+134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
 135
 136                <data
-136-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
+136-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
 137                    android:host="firebase.auth"
-137-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
+137-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
 138                    android:path="/"
-138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
+138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
 139                    android:scheme="recaptcha" />
-139-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
+139-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
 140            </intent-filter>
 141        </activity>
 142
 143        <service
-143-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:64:9-73:19
+143-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:64:9-73:19
 144            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-144-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:65:13-101
+144-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:65:13-101
 145            android:enabled="true"
-145-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:66:13-35
+145-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:66:13-35
 146            android:exported="false" >
-146-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:67:13-37
+146-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:67:13-37
 147            <intent-filter>
-147-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:68:13-72:29
+147-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:68:13-72:29
 148                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-148-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:17-89
-148-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:25-86
+148-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:17-89
+148-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:25-86
 149
 150                <category android:name="android.intent.category.DEFAULT" />
-150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
 151            </intent-filter>
 152        </service>
 153        <service
-153-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:74:9-80:19
+153-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:74:9-80:19
 154            android:name="com.google.firebase.components.ComponentDiscoveryService"
-154-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:75:13-84
+154-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:75:13-84
 155            android:directBootAware="true"
-155-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+155-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 156            android:exported="false" >
-156-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:76:13-37
+156-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:76:13-37
 157            <meta-data
-157-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:77:13-79:85
+157-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:77:13-79:85
 158                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-158-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:78:17-109
+158-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:78:17-109
 159                android:value="com.google.firebase.components.ComponentRegistrar" />
-159-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:79:17-82
+159-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:79:17-82
 160            <meta-data
-160-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:33:13-35:85
+160-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:33:13-35:85
 161                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-161-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:34:17-107
+161-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:34:17-107
 162                android:value="com.google.firebase.components.ComponentRegistrar" />
-162-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:35:17-82
+162-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:35:17-82
 163            <!--
 164                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
 165                clients to use it as well, by defining this registrar in their own core/common library.
 166            -->
 167            <meta-data
-167-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+167-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
 168                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-168-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+168-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
 169                android:value="com.google.firebase.components.ComponentRegistrar" />
-169-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+169-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 170        </service>
 171
 172        <provider
-172-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+172-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 173            android:name="com.google.firebase.provider.FirebaseInitProvider"
-173-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+173-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
 174            android:authorities="com.dumb.dumb_deaf_system.firebaseinitprovider"
-174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 175            android:directBootAware="true"
-175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 176            android:exported="false"
-176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
 177            android:initOrder="100" />
-177-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+177-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
 178
 179        <activity
-179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 181            android:exported="false"
-181-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+181-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-182-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+182-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 183
 184        <meta-data
-184-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+184-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
 185            android:name="com.google.android.gms.version"
-185-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+185-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
 186            android:value="@integer/google_play_services_version" />
-186-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+186-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
 187    </application>
 188
 189</manifest>

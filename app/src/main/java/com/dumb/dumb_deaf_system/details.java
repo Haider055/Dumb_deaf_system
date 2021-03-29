@@ -180,10 +180,10 @@ int REQUEST_CODE=1;
             }
         });
             //gif
-        if (type.equals("gif")){
-            Glide.with(this).load(gif).diskCacheStrategy(DiskCacheStrategy.AUTOMATIC).into(imageView);
-            andExoPlayerView.setVisibility(View.GONE);
-        }
+//        if (type.equals("gif")){
+//            Glide.with(this).load(gif).diskCacheStrategy(DiskCacheStrategy.AUTOMATIC).into(imageView);
+//            andExoPlayerView.setVisibility(View.GONE);
+//        }
 
         //voice
         voicePlayerView = findViewById(R.id.audioplayer);
@@ -259,11 +259,11 @@ int REQUEST_CODE=1;
                         Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
                         String imageFileName = "DumbIMAGES"+id+ ".jpg";
                         AltexImageDownloader.writeToDisk(details.this,gif, imageFileName);
-                        File bitmapFile = new File(Environment.getExternalStorageDirectory() + "/" + imageFileName);
-                        Bitmap bitmap = BitmapFactory.decodeFile(String.valueOf(bitmapFile));
-                        Uri uriDownload=Uri.fromFile(bitmapFile);
-                        Toast.makeText(details.this,uriDownload.toString() , Toast.LENGTH_SHORT).show();
-
+//                        File bitmapFile = new File(Environment.getExternalStorageDirectory() + "/" + imageFileName);
+//                        Bitmap bitmap = BitmapFactory.decodeFile(String.valueOf(bitmapFile));
+//                        Uri uriDownload=Uri.fromFile(bitmapFile);
+//                        Toast.makeText(details.this,uriDownload.toString() , Toast.LENGTH_SHORT).show();
+                        getBitmapFromURL(gif);
 
                     }else {
                         haveStoragePermission();
@@ -404,7 +404,61 @@ int REQUEST_CODE=1;
 //            DownloadManager manager = (DownloadManager) c.getSystemService(Context.DOWNLOAD_SERVICE);
 //            manager.enqueue(request);
         }
+
+    }
+    public void getBitmapFromURL(String src) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    java.net.URL url = new java.net.URL(src);
+                    HttpURLConnection connection = (HttpURLConnection) url
+                            .openConnection();
+                    connection.setDoInput(true);
+                    connection.connect();
+                    int status=connection.getResponseCode();
+                    if(status<400){
+
+                        InputStream input = connection.getInputStream();
+                        Bitmap myBitmap = BitmapFactory.decodeStream(input);
+                      Log.d("wok",myBitmap.toString());
+                       sentOnWatsuppImage("com.whatsapp",myBitmap);
+
+                    }
+                    else {
+                        InputStream input = connection.getErrorStream();
+                     //   Toast.makeText(getApplication(), input.toString(), Toast.LENGTH_SHORT).show();
+
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+
+                }
+            }
+        }).start();
+
     }
 
+    public void sentOnWatsuppImage(String pack, Bitmap bitmap) {
+        PackageManager pm = getPackageManager();
+        try {
+            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+            String path = MediaStore.Images.Media.insertImage(getContentResolver(), bitmap, "Title", null);
+            Uri imageUri = Uri.parse(path);
 
+            @SuppressWarnings("unused")
+            PackageInfo info = pm.getPackageInfo(pack, PackageManager.GET_META_DATA);
+
+            Intent waIntent = new Intent(Intent.ACTION_SEND);
+            waIntent.setType("image/*");
+//            waIntent.setPackage(pack);
+            waIntent.putExtra(android.content.Intent.EXTRA_STREAM, imageUri);
+            waIntent.putExtra(Intent.EXTRA_TEXT, pack);
+           startActivity(Intent.createChooser(waIntent, "Share with"));
+        } catch (Exception e) {
+            Log.e("Error on sharing", e + " ");
+            Toast.makeText(getApplicationContext(), "App not Installed", Toast.LENGTH_SHORT).show();
+        }
+    }
 }
