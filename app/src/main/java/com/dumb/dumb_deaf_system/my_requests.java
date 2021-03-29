@@ -1,6 +1,7 @@
 package com.dumb.dumb_deaf_system;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -8,6 +9,8 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.dumb.dumb_deaf_system.Adapters.adapter_myrequests;
 import com.dumb.dumb_deaf_system.Network.RetrofitClass;
@@ -46,6 +49,14 @@ public class my_requests extends AppCompatActivity {
 
 
         recyclerView=findViewById(R.id.rec);
+
+        Window window =getWindow();
+
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
 
 
         getdata();

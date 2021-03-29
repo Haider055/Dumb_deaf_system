@@ -1,12 +1,15 @@
 package com.dumb.dumb_deaf_system;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toolbar;
 
 import com.dumb.dumb_deaf_system.Adapters.adapter_myfav;
@@ -70,6 +73,18 @@ public class myfavourites extends AppCompatActivity implements adapter_myfav.del
         adapter=new adapter_myfav(list,this);
         recyclerView.setAdapter(adapter);
         adapter.setMdel(this);
+
+
+
+
+        Window window =getWindow();
+
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
+
 
 
 

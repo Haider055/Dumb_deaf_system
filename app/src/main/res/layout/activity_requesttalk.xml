@@ -8,19 +8,15 @@
     android:layout_height="match_parent"
     tools:context=".requesttalk">
 
-
     <androidx.appcompat.widget.Toolbar
         app:title="Request"
         app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
         android:id="@+id/toolbar"
         app:titleTextColor="#ffffff"
-        android:background="#216582"
+        android:background="@color/toolcolor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
     </androidx.appcompat.widget.Toolbar>
-
-
 
     <TextView
         android:textColor="#000000"
@@ -64,6 +60,77 @@
                 android:layout_height="wrap_content">
             </EditText>
 
+            <Spinner
+                android:id="@+id/spin"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+
+            <RadioGroup
+                android:id="@+id/radios"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video" />
+
+                <RadioButton
+                    android:id="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Image" />
+
+            </RadioGroup>
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/progress"
+                android:layout_height="wrap_content">
+
+            </androidx.core.widget.ContentLoadingProgressBar>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="Upload video"
+                    android:id="@+id/uploadvideobutton"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/buttoncolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+                <Button
+                    android:text="Upload gif"
+                    android:backgroundTint="@color/buttoncolor"
+                    android:id="@+id/uploadimagebutton"
+                    android:layout_margin="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Button>
+
+            </LinearLayout>
+            <Button
+                android:text="Upload Audio"
+                android:id="@+id/uploadaudiobutton"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/buttoncolor"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
 
             <RadioGroup
                 android:id="@+id/radio"
@@ -92,8 +159,8 @@
                 android:text="Submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
             </Button>
+
 
         </LinearLayout>
 

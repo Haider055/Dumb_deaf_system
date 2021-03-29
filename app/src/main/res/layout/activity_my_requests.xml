@@ -20,7 +20,7 @@
             app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
             android:id="@+id/tool"
             app:titleTextColor="#ffffff"
-            android:background="#216582"
+            android:background="@color/toolcolor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 

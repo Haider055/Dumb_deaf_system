@@ -20,6 +20,16 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,8 +38,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dumb_deaf_system"
         android:usesCleartextTraffic="true">
-        <activity android:name=".myfavourites"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"></activity>
+        <activity android:name=".otp_screen"></activity>
+        <activity
+            android:name=".myfavourites"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".my_requests"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
@@ -38,9 +50,6 @@
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".requesttalk"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name=".otpscreen"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".profile"

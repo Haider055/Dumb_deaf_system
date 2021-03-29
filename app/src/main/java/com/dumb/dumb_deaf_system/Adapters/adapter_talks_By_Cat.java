@@ -60,6 +60,13 @@ public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_
         final String[] urdu_description = new String[1];
         final String[] title = new String[1];
 
+        dbhandler dbhandlers=new dbhandler(context);
+        String duplicate=dbhandlers.checkforduplicateincart(list.get(position).getId());
+        dbhandlers.close();
+        if (duplicate.equals("yes")){
+            holder.add.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_baseline_favorite_24, 0);
+        }
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,6 +105,10 @@ public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_
                 String result=dbhandler.addtofav(id,title,gif,description,video,urdu,audio,type,category);
                 dbhandler.close();
                 Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
+                if (result.equals("Added to favourites")){
+                    holder.add.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_baseline_favorite_24, 0);
+
+                }
             }
         });
         

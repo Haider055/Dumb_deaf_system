@@ -49,6 +49,20 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
+attr OtpCursorColor
+attr OtpCursorWidth
+attr OtpHideLineWhenFilled
+attr OtpItemCount
+attr OtpItemHeight
+attr OtpItemRadius
+attr OtpItemSpacing
+attr OtpItemWidth
+attr OtpLineColor
+attr OtpLineWidth
+attr OtpMaskingChar
+attr OtpRtlTextDirection
+attr OtpState_filled
+attr OtpViewType
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -669,6 +683,7 @@ attr onNegativeCross
 attr onPositiveCross
 attr onShow
 attr onTouchUp
+attr otpViewStyle
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -1040,8 +1055,13 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
+color buttoncolor
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1236,6 +1256,7 @@ color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color toolbarTransparent
+color toolcolor
 color tooltip_background_dark
 color tooltip_background_light
 color transparent
@@ -1321,6 +1342,8 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1602,6 +1625,11 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen otp_view_cursor_width
+dimen otp_view_item_line_width
+dimen otp_view_item_radius
+dimen otp_view_item_size
+dimen otp_view_item_spacing
 dimen player_base_height
 dimen player_controller_base_height
 dimen player_height
@@ -1792,6 +1820,7 @@ drawable exo_notification_stop
 drawable gif
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient
 drawable ic_baseline_add_24
 drawable ic_baseline_add_location_alt_24
 drawable ic_baseline_arrow_back_24
@@ -2003,6 +2032,11 @@ id both
 id bottom
 id bottom_to_top
 id bounce
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id btnNext
 id btnPause
 id btnPlay
@@ -2081,6 +2115,7 @@ id direct
 id disableHome
 id disablePostScroll
 id disableScroll
+id download
 id dragDown
 id dragEnd
 id dragLeft
@@ -2192,6 +2227,7 @@ id layout
 id left
 id left_to_right
 id light
+id line
 id line1
 id line3
 id linear
@@ -2258,6 +2294,7 @@ id off
 id on
 id one
 id otp
+id otps
 id outline
 id overall
 id packed
@@ -2285,6 +2322,7 @@ id position
 id postLayout
 id pre_password
 id profile
+id progress
 id progressBar
 id progressBarPlayer
 id progress_circular
@@ -2292,11 +2330,15 @@ id progress_horizontal
 id pullToRefresh
 id radio
 id radiogender
+id radios
 id radiotype
 id ratio
 id rec
+id rectangle
 id rectangles
+id register
 id relativeLayout
+id resend
 id reverseSawtooth
 id right
 id right_icon
@@ -2346,6 +2388,7 @@ id snap
 id snapMargins
 id spacer
 id spherical_gl_surface_view
+id spin
 id spline
 id split_action_bar
 id spread
@@ -2431,8 +2474,12 @@ id uniform
 id unlabeled
 id up
 id update
+id uploadaudiobutton
+id uploadimagebutton
+id uploadvideobutton
 id urdu
 id useLogo
+id video
 id video_decoder_gl_surface_view
 id videoplayer
 id view_offset_helper
@@ -2516,12 +2563,14 @@ layout activity_main
 layout activity_my_requests
 layout activity_myfavourites
 layout activity_mytalks
-layout activity_otpscreen
+layout activity_otp_screen
 layout activity_profile
 layout activity_requesttalk
 layout activity_signup
 layout activity_splashscreen
 layout activity_talks
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2686,6 +2735,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string default_web_client_id
 string error_icon_content_description
 string exo_controls_fastforward_description
@@ -2731,6 +2781,9 @@ string exo_track_unknown
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -3042,6 +3095,8 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style OtpWidget
+style OtpWidget_OtpView
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -3596,6 +3651,8 @@ styleable MotionTelltales telltales_tailColor telltales_tailScale telltales_velo
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor menu
 styleable OnClick clickAction targetId
 styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp touchAnchorId touchAnchorSide touchRegionId
+styleable OtpView android_itemBackground android_cursorVisible android_textAllCaps OtpCursorColor OtpCursorWidth OtpHideLineWhenFilled OtpItemCount OtpItemHeight OtpItemRadius OtpItemSpacing OtpItemWidth OtpLineColor OtpLineWidth OtpMaskingChar OtpRtlTextDirection OtpState_filled OtpViewType
+styleable OtpViewTheme otpViewStyle
 styleable PlayerControlView ad_marker_color ad_marker_width bar_height buffered_color controller_layout_id fastforward_increment played_ad_marker_color played_color repeat_toggle_modes rewind_increment scrubber_color scrubber_disabled_size scrubber_dragged_size scrubber_drawable scrubber_enabled_size show_shuffle_button show_timeout time_bar_min_update_interval touch_target_height unplayed_color
 styleable PlayerView ad_marker_color ad_marker_width auto_show bar_height buffered_color controller_layout_id default_artwork fastforward_increment hide_during_ads hide_on_touch keep_content_on_player_reset played_ad_marker_color played_color player_layout_id repeat_toggle_modes resize_mode rewind_increment scrubber_color scrubber_disabled_size scrubber_dragged_size scrubber_drawable scrubber_enabled_size show_buffering show_shuffle_button show_timeout shutter_background_color surface_type time_bar_min_update_interval touch_target_height unplayed_color use_artwork use_controller use_sensor_rotation
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
@@ -3636,6 +3693,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable VoicePlayerView enableVisualizer playPauseBackgroundColor playPauseCornerRadius playProgressbarColor progressTimeColor seekBarProgressColor seekBarThumbColor shareBackgroundColor shareCornerRadius shareText showShareButton showTiming timingBackgroundColor viewBackground viewCornerRadius visualizationNotPlayedColor visualizationPlayedColor
+xml image_share_filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

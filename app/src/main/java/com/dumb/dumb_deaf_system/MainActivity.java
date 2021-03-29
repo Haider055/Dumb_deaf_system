@@ -27,6 +27,8 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -104,13 +106,19 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
         searchView=findViewById(R.id.searchView);
 
+        Window window =getWindow();
+
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
 
         //set header of side bar
         View header=navigationView.getHeaderView(0);
 
         imageInHeader=header.findViewById(R.id.profile);
         nameinheader=header.findViewById(R.id.name);
-
 
         if (sharedPreferences.getString("loginstatus","false").equals("true")){
             nameinheader.setText(sharedPreferences.getString("name","").trim());
@@ -128,7 +136,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
         catch (Exception e){
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
-
         //sethamberger
         ActionBarDrawerToggle actionBarDrawerToggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.app_name,R.string.app_name);
         actionBarDrawerToggle.getDrawerArrowDrawable().setColor(Color.parseColor("#ffffff"));
@@ -138,9 +145,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
         //click on item
         navigationView.setCheckedItem(R.id.nav_home);
         navigationView.setNavigationItemSelectedListener(this);
-
-
-
         //api call
 
         getdata();
@@ -153,8 +157,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                 pullToRefresh.setRefreshing(false);
             }
         });
-
-
     }
 
     private void getdata() {
@@ -178,7 +180,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                                 notificationManager.createNotificationChannel(notificationChannel);
                             }
 
-
                             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(MainActivity.this, CHannel_ID)
                                     .setSmallIcon(R.drawable.ic_baseline_notifications_none_24)
                                     .setAutoCancel(true)
@@ -190,7 +191,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
                             NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
                             mNotificationManager.notify(002, mBuilder.build());
-
 
                             Call<String> apiupdate_noti = RetrofitClass.getInstanceScaler().updateNotification(shared.getString("id", ""));
                             apiupdate_noti.enqueue(new Callback<String>() {
@@ -204,7 +204,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
                                 }
                             });
-
                         }
                     }
                 }
@@ -215,7 +214,6 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                 }
             });
         }
-
         Call<List<modelcategories>> call=RetrofitClass.getInstanceGson().categories();
         call.enqueue(new Callback<List<modelcategories>>() {
             @Override

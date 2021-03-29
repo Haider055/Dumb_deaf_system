@@ -4,7 +4,7 @@
             "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/1e84b9cb669e9e736d090d88f91c8bd2/appcompat-1.2.0/res/values-v22/values-v22.xml",
+                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/4c7e36aac35272fb5c5c7e51ac3c9317/appcompat-1.2.0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

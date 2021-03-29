@@ -2,19 +2,30 @@ package com.dumb.dumb_deaf_system;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.artjimlop.altex.AltexImageDownloader;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat;
@@ -29,8 +40,21 @@ import com.squareup.picasso.Picasso;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 import lal.adhish.gifprogressbar.GifView;
 import retrofit2.Call;
@@ -42,7 +66,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
     String id,category,details,date,gif,video,type,audio,urdu,title;
     AndExoPlayerView andExoPlayerView;
     Toolbar toolbar;
-    Button share;
+    Button share,download;
 
     List<model_Talksby_Cat> list;
     adapter_talks_By_Cat adapter;
@@ -74,6 +98,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         cardView=findViewById(R.id.cardofimage);
 
         rec=findViewById(R.id.rec);
+        download=findViewById(R.id.download);
 
         id=getIntent().getStringExtra("id");
         type=getIntent().getStringExtra("type");
@@ -86,13 +111,22 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         urdu=getIntent().getStringExtra("urdu");
         title=getIntent().getStringExtra("title");
 
-
 //        if (type.equals("gif")){
 //            andExoPlayerView.setVisibility(View.GONE);
 //        }
 //        else {
 //            imageView.setVisibility(View.GONE);
 //        }
+
+
+        Window window =getWindow();
+
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
+
 
         head=findViewById(R.id.head);
         detail=findViewById(R.id.detail);
@@ -125,7 +159,12 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(android.content.Intent.ACTION_SEND);
-                intent.putExtra(Intent.EXTRA_TEXT, category+"\n"+title+"\n"+details+"\n"+urdu);
+                if (type.equals("gif")){
+                intent.putExtra(Intent.EXTRA_TEXT, category+"\n"+title+"\n"+details+"\n"+urdu+"\n"+gif);
+                }
+                else {
+                    intent.putExtra(Intent.EXTRA_TEXT, category+"\n"+title+"\n"+details+"\n"+urdu+"\n"+video);
+                }
                 intent.setType("text/plain");
                 startActivity(Intent.createChooser(intent, "Send to friend"));
             }
@@ -164,7 +203,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             public void onPaused(@NotNull JcStatus jcStatus) {
 
             }
-
             @Override
             public void onContinueAudio(@NotNull JcStatus jcStatus) {
 
@@ -193,7 +231,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             }
         });
 
-
             //video
         if (type.equals("video")){
             andExoPlayerView.setSource(video);
@@ -201,6 +238,20 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             cardView.setVisibility(View.GONE);
         }
 
+        download.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (type.equals("gif")){
+                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                    AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
+                }
+                else {
+                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                    AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+                }
+            }
+        });
         showrelated(category);
 
 

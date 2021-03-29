@@ -57,7 +57,6 @@ public interface apis {
     @POST("updateType.php")
     Call<String> updatetype(@Field("id") String id, @Field("type") String type);
 
-
     @FormUrlEncoded
     @POST("showCategoryData.php")
     Call<List<model_Talksby_Cat>> showtalkbycategory(@Field("category") String category);
@@ -66,16 +65,13 @@ public interface apis {
     @POST("updatePassword.php")
     Call<String> updatepass(@Field("id") String id, @Field("password") String password,@Field("old_password") String oldpassword);
 
-
     @FormUrlEncoded
     @POST("request.php")
-    Call<String> request(@Field("id") String id, @Field("viewer") String viewer,@Field("title") String title,@Field("description") String description);
-
+    Call<String> request(@Field("id") String id, @Field("viewer") String viewer,@Field("title") String title,@Field("description") String description,@Field("audio") String audio,@Field("gif") String gif,@Field("video") String video,@Field("category") String category);
 
     @FormUrlEncoded
     @POST("showMyData.php")
     Call<List<model_mytalks>> showmydata(@Field("id") String id);
-
 
     @FormUrlEncoded
     @POST("showRequests.php")
@@ -88,8 +84,4 @@ public interface apis {
     @FormUrlEncoded
     @POST("updateNotification.php")
     Call<String> updateNotification(@Field("id") String id);
-
-
-
-
 }

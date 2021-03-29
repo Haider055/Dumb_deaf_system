@@ -11,7 +11,7 @@
 
     <Toolbar
         android:navigationIcon="@drawable/ic_baseline_arrow_back_24"
-        android:background="@color/all_color"
+        android:background="@color/toolcolor"
         android:id="@+id/tool"
         android:title="Favourites"
         android:titleTextColor="@color/cardview_light_background"

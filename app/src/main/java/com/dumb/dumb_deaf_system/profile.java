@@ -20,6 +20,8 @@ import android.provider.MediaStore;
 import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -64,7 +66,6 @@ public class profile extends AppCompatActivity {
     AlertDialog alertDialog;
     String Imagestring="";
 
-
     AlertDialog.Builder buildername;
     AlertDialog alertname;
 
@@ -97,7 +98,6 @@ public class profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-
         nameicon=findViewById(R.id.nameupdate);
         addressicon=findViewById(R.id.addressupdate);
         phoneicon=findViewById(R.id.phoneupdate);
@@ -118,6 +118,16 @@ public class profile extends AppCompatActivity {
         genderTextView=findViewById(R.id.gender);
         typeTextView=findViewById(R.id.type);
         passwordTextView=findViewById(R.id.password);
+
+        Window window =getWindow();
+
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
+
+
 
         nameTextView.setText(sharedPreferences.getString("name",""));
         addressTextView.setText(sharedPreferences.getString("address",""));

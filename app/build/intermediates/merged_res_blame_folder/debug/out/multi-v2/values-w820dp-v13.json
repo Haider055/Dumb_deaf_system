@@ -4,7 +4,7 @@
             "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/35ab5a5cce027971ee62b1bc3202effc/jetified-JcPlayer-2.7.0/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/046f623e38e81f25da6331ca54ba001b/jetified-JcPlayer-2.7.0/res/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

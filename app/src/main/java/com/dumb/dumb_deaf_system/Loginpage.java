@@ -59,6 +59,8 @@ public class Loginpage extends AppCompatActivity {
             }
         });
 
+
+
         login=findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -195,10 +195,12 @@ public class signup extends AppCompatActivity {
                     password.setError("Set Password");
                 if (confirm_passwordString.isEmpty())
                     confirm_password.setError("Enter confirm password");
+                if (nameString.length()<4)
+                    Toast.makeText(signup.this, "Name must be of atleast 4 characters", Toast.LENGTH_SHORT).show();
                 if (!confirm_passwordString.equals(passwordString))
                     Toast.makeText(signup.this, "Both passwords not matched", Toast.LENGTH_SHORT).show();
 
-                if (nameString.isEmpty()||emailString.isEmpty()||phoneString.isEmpty()||addressString.isEmpty()||passwordString.isEmpty()||confirm_passwordString.isEmpty()|| !passwordString.equals(confirm_passwordString)){}
+                if (nameString.isEmpty()||emailString.isEmpty()||phoneString.isEmpty()||addressString.isEmpty()||passwordString.isEmpty()||confirm_passwordString.isEmpty()|| !passwordString.equals(confirm_passwordString) || nameString.length()<4 ){}
                 else {
 
                     if (genderString.equals("")) {
@@ -210,16 +212,38 @@ public class signup extends AppCompatActivity {
                         } else {
 
                             //start retrofit
-                            Call<String> api1 = RetrofitClass.getInstanceScaler().signup(nameString, emailString, passwordString, confirm_passwordString, phoneString, imageUpdateString, addressString, genderString, typeString);
+//                            Call<String> api1 = RetrofitClass.getInstanceScaler().signup(nameString, emailString, passwordString, confirm_passwordString, phoneString, imageUpdateString, addressString, genderString, typeString);
+//
+//                            api1.enqueue(new Callback<String>() {
+//                                @Override
+//                                public void onResponse(Call<String> call, Response<String> response) {
+//
+//                                    if (response.isSuccessful()){
+//                                        if (response.body().trim().equals("Register Successfully")){
+//                                            Toast.makeText(signup.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+//                                            Intent intent=new Intent(signup.this,Loginpage.class);
+//                                            intent.putExtra("name",nameString);
+//                                            intent.putExtra("email",emailString);
+//                                            intent.putExtra("phone",phoneString);
+//                                            intent.putExtra("address",addressString);
+//                                            intent.putExtra("password",passwordString);
+//                                            intent.putExtra("image",imageUpdateString);
+//                                            intent.putExtra("con_password",confirm_passwordString);
+//                                            intent.putExtra("gender",genderString);
+//                                            intent.putExtra("type",typeString);
+//                                            startActivity(intent);
+//                                            finish();
+//                                        }
+//
+//                                    }
+//                                }
+//                                @Override
+//                                public void onFailure(Call<String> call, Throwable t) {
+//
+//                                }
+//                            });
 
-                            api1.enqueue(new Callback<String>() {
-                                @Override
-                                public void onResponse(Call<String> call, Response<String> response) {
-
-                                    if (response.isSuccessful()){
-                                        if (response.body().trim().equals("Register Successfully")){
-                                            Toast.makeText(signup.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-                                            Intent intent=new Intent(signup.this,Loginpage.class);
+                                            Intent intent=new Intent(signup.this,otp_screen.class);
                                             intent.putExtra("name",nameString);
                                             intent.putExtra("email",emailString);
                                             intent.putExtra("phone",phoneString);
@@ -230,21 +254,11 @@ public class signup extends AppCompatActivity {
                                             intent.putExtra("gender",genderString);
                                             intent.putExtra("type",typeString);
                                             startActivity(intent);
-                                            finish();
-                                        }
-
-                                    }
-                                }
-                                @Override
-                                public void onFailure(Call<String> call, Throwable t) {
-
-                                }
-                            });
 
 
 
 
-                                }
+                        }
 
                         }
                     }

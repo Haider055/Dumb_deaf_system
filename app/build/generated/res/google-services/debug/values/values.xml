@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">152027616719-91qrs31h7t8o6bijkbgmkgueoe5uc428.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">152027616719</string>
-    <string name="google_api_key" translatable="false">AIzaSyADD1GJKWnUqvSZm1TYBFB1NIdRLruze10</string>
-    <string name="google_app_id" translatable="false">1:152027616719:android:03e1dcac3ef48c42696eba</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADD1GJKWnUqvSZm1TYBFB1NIdRLruze10</string>
-    <string name="google_storage_bucket" translatable="false">dumb-deaf-system.appspot.com</string>
-    <string name="project_id" translatable="false">dumb-deaf-system</string>
+    <string name="default_web_client_id" translatable="false">779270967170-h0b8i73e5114cg14nvhl23vjr5bq3dik.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">779270967170</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJSQdCdXEylR-GWbXiUBM3e_qXg2vCCq4</string>
+    <string name="google_app_id" translatable="false">1:779270967170:android:750f4059d6fcbccbca899b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJSQdCdXEylR-GWbXiUBM3e_qXg2vCCq4</string>
+    <string name="google_storage_bucket" translatable="false">dumbdeaf.appspot.com</string>
+    <string name="project_id" translatable="false">dumbdeaf</string>
 </resources>

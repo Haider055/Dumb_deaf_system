@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "152027616719",
-    "project_id": "dumb-deaf-system",
-    "storage_bucket": "dumb-deaf-system.appspot.com"
+    "project_number": "779270967170",
+    "project_id": "dumbdeaf",
+    "storage_bucket": "dumbdeaf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152027616719:android:03e1dcac3ef48c42696eba",
+        "mobilesdk_app_id": "1:779270967170:android:750f4059d6fcbccbca899b",
         "android_client_info": {
           "package_name": "com.dumb.dumb_deaf_system"
         }
       },
       "oauth_client": [
         {
-          "client_id": "152027616719-91qrs31h7t8o6bijkbgmkgueoe5uc428.apps.googleusercontent.com",
+          "client_id": "779270967170-nkpcvlchbq29ckj7b7cgk622jq9er0ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dumb.dumb_deaf_system",
+            "certificate_hash": "7772287580bc0682da5586d6f0292a08d77e0e23"
+          }
+        },
+        {
+          "client_id": "779270967170-h0b8i73e5114cg14nvhl23vjr5bq3dik.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyADD1GJKWnUqvSZm1TYBFB1NIdRLruze10"
+          "current_key": "AIzaSyBJSQdCdXEylR-GWbXiUBM3e_qXg2vCCq4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "152027616719-91qrs31h7t8o6bijkbgmkgueoe5uc428.apps.googleusercontent.com",
+              "client_id": "779270967170-h0b8i73e5114cg14nvhl23vjr5bq3dik.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -93,7 +93,7 @@ public class dbhandler extends SQLiteOpenHelper {
         return response;
     }
 
-    private String checkforduplicateincart(String proid) {
+    public String checkforduplicateincart(String proid) {
         String a="no";
         String response="";
         String[] colomn =new String[]{ID_COLUMN,TITLE_COLUMN,DESC_COLUMN,GIF_COLUMN,VIDEO_COLUMN,AUDIO_COLUMN,URDU_COLUMN,PROID_COLUMN,FILETYPE_COLUMN,CATEGORY_COLUMN};

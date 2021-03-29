@@ -1,4 +1,0 @@
-#Tue Feb 09 14:55:51 PKT 2021
-base.0=/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

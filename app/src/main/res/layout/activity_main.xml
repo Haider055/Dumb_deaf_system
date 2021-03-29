@@ -23,15 +23,13 @@
             android:layout_height="match_parent">
 
             <androidx.appcompat.widget.Toolbar
-                app:title="Menu"
+                app:title="Easy Communication"
                 android:id="@+id/tool"
                 app:titleTextColor="#ffffff"
-                android:background="#216582"
+                android:background="@drawable/gradient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
             </androidx.appcompat.widget.Toolbar>
-
 
             <SearchView
                 android:id="@+id/searchView"
