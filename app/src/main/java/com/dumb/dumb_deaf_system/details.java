@@ -12,14 +12,17 @@ import android.Manifest;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.Image;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -33,6 +36,7 @@ import android.widget.Toolbar;
 import com.artjimlop.altex.AltexImageDownloader;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.target.SimpleTarget;
 import com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat;
 import com.dumb.dumb_deaf_system.Network.RetrofitClass;
 import com.dumb.dumb_deaf_system.models.model_Talksby_Cat;
@@ -45,6 +49,7 @@ import com.squareup.picasso.Picasso;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -252,7 +257,12 @@ int REQUEST_CODE=1;
                     if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
                         Log.e("Permission error","You have permission");
                         Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
-                        AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
+                        String imageFileName = "DumbIMAGES"+id+ ".jpg";
+                        AltexImageDownloader.writeToDisk(details.this,gif, imageFileName);
+                        File bitmapFile = new File(Environment.getExternalStorageDirectory() + "/" + imageFileName);
+                        Bitmap bitmap = BitmapFactory.decodeFile(String.valueOf(bitmapFile));
+                        Uri uriDownload=Uri.fromFile(bitmapFile);
+                        Toast.makeText(details.this,uriDownload.toString() , Toast.LENGTH_SHORT).show();
 
 
                     }else {
@@ -358,7 +368,13 @@ int REQUEST_CODE=1;
                     Log.e("Permission error","You have permission");
                     Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
                     AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
-
+//                    try {
+//                        URL url = new URL(gif);
+//                        Bitmap image = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+//                        shareToWatsupp(image);
+//                    } catch(IOException e) {
+//                        System.out.println(e);
+//                    }
 
 
                 }else {
@@ -369,6 +385,7 @@ int REQUEST_CODE=1;
                 if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
                     Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
                     AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+
 
                 }else {
 
@@ -388,4 +405,6 @@ int REQUEST_CODE=1;
 //            manager.enqueue(request);
         }
     }
+
+
 }
