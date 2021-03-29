@@ -53,6 +53,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -113,6 +114,7 @@ int REQUEST_CODE=1;
         id=getIntent().getStringExtra("id");
         type=getIntent().getStringExtra("type");
         gif=getIntent().getStringExtra("gif");
+
         video=getIntent().getStringExtra("video");
         date=getIntent().getStringExtra("date");
         category=getIntent().getStringExtra("category");
@@ -120,7 +122,8 @@ int REQUEST_CODE=1;
         details=getIntent().getStringExtra("details");
         urdu=getIntent().getStringExtra("urdu");
         title=getIntent().getStringExtra("title");
-
+        imageView = findViewById(R.id.image);
+        andExoPlayerView = findViewById(R.id.videoplayer);
 //        if (type.equals("gif")){
 //            andExoPlayerView.setVisibility(View.GONE);
 //        }
@@ -143,8 +146,7 @@ int REQUEST_CODE=1;
         urdu_desc=findViewById(R.id.urdu);
         share=findViewById(R.id.share);
 
-        imageView = findViewById(R.id.image);
-        andExoPlayerView = findViewById(R.id.videoplayer);
+
 
 
         toolbar.setTitle(title);
@@ -180,10 +182,10 @@ int REQUEST_CODE=1;
             }
         });
             //gif
-//        if (type.equals("gif")){
-//            Glide.with(this).load(gif).diskCacheStrategy(DiskCacheStrategy.AUTOMATIC).into(imageView);
-//            andExoPlayerView.setVisibility(View.GONE);
-//        }
+        if (type.equals("gif")){
+            Glide.with(this).load(gif).diskCacheStrategy(DiskCacheStrategy.AUTOMATIC).into(imageView);
+            andExoPlayerView.setVisibility(View.GONE);
+        }
 
         //voice
         voicePlayerView = findViewById(R.id.audioplayer);
@@ -271,9 +273,10 @@ int REQUEST_CODE=1;
                 }
                 else {
                     if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
-                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
-
+//                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+//                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+//                        getBitmapFromURL(video);
+                        downloadfile(video);
                     }else {
 
 
@@ -416,13 +419,19 @@ int REQUEST_CODE=1;
                             .openConnection();
                     connection.setDoInput(true);
                     connection.connect();
+
+
                     int status=connection.getResponseCode();
                     if(status<400){
 
                         InputStream input = connection.getInputStream();
+
                         Bitmap myBitmap = BitmapFactory.decodeStream(input);
-                      Log.d("wok",myBitmap.toString());
-                       sentOnWatsuppImage("com.whatsapp",myBitmap);
+                        if(myBitmap!=null){
+                            Log.d("wok",myBitmap.toString());
+                            sentOnWatsuppImage("com.whatsapp",myBitmap);
+                        }
+
 
                     }
                     else {
@@ -451,8 +460,8 @@ int REQUEST_CODE=1;
             PackageInfo info = pm.getPackageInfo(pack, PackageManager.GET_META_DATA);
 
             Intent waIntent = new Intent(Intent.ACTION_SEND);
-            waIntent.setType("image/*");
-//            waIntent.setPackage(pack);
+            waIntent.setType("/*");
+            waIntent.setPackage(pack);
             waIntent.putExtra(android.content.Intent.EXTRA_STREAM, imageUri);
             waIntent.putExtra(Intent.EXTRA_TEXT, pack);
            startActivity(Intent.createChooser(waIntent, "Share with"));
@@ -460,5 +469,51 @@ int REQUEST_CODE=1;
             Log.e("Error on sharing", e + " ");
             Toast.makeText(getApplicationContext(), "App not Installed", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void downloadfile(String vidurl) {
+new Thread(new Runnable() {
+    @Override
+    public void run() {
+        SimpleDateFormat sd = new SimpleDateFormat("yymmhh");
+        String date = sd.format(new Date());
+        String name = "video" + date + ".mp4";
+
+        try {
+            String rootDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+                    + File.separator + "My_Video";
+            File rootFile = new File(rootDir);
+            rootFile.mkdir();
+            URL url = new URL(vidurl);
+            HttpURLConnection c = (HttpURLConnection) url.openConnection();
+            c.setRequestMethod("GET");
+            c.setDoOutput(true);
+            c.connect();
+            FileOutputStream f = new FileOutputStream(new File(rootFile,
+                    name));
+            InputStream in = c.getInputStream();
+            byte[] buffer = new byte[1024];
+            int len1 = 0;
+            while ((len1 = in.read(buffer)) > 0) {
+                f.write(buffer, 0, len1);
+            }
+            Log.d("complete", "working");
+            sentVideoToWatsupp(date);
+            f.close();
+        } catch (IOException e) {
+            Log.d("Error....", e.toString());
+        }
+    }
+}).start();
+    }
+   void sentVideoToWatsupp(String path){
+     Log.d("here","ask");
+       Uri uri = Uri.parse(Environment.getExternalStorageDirectory()+path);
+       Intent share = new Intent(Intent.ACTION_SEND);
+       share.setPackage("com.whatsapp");
+       share.putExtra(Intent.EXTRA_STREAM, uri);
+       share.setType("Video/*");
+       share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+       startActivity(Intent.createChooser(share, "Share image File"));
     }
 }
