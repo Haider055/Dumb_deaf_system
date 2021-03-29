@@ -17,7 +17,6 @@ com/dumb/dumb_deaf_system/details.java
  com.dumb.dumb_deaf_system.details$3
  com.dumb.dumb_deaf_system.details$4
  com.dumb.dumb_deaf_system.details$5
- com.dumb.dumb_deaf_system.details$Downback
 com/dumb/dumb_deaf_system/Loginpage.java
  com.dumb.dumb_deaf_system.Loginpage
  com.dumb.dumb_deaf_system.Loginpage$1
@@ -28,9 +27,6 @@ com/dumb/dumb_deaf_system/models/model_Talksby_Cat.java
  com.dumb.dumb_deaf_system.models.model_Talksby_Cat
 com/dumb/dumb_deaf_system/models/modelcategories.java
  com.dumb.dumb_deaf_system.models.modelcategories
-com/dumb/dumb_deaf_system/splashscreen.java
- com.dumb.dumb_deaf_system.splashscreen
- com.dumb.dumb_deaf_system.splashscreen$1
 com/dumb/dumb_deaf_system/signup.java
  com.dumb.dumb_deaf_system.signup
  com.dumb.dumb_deaf_system.signup$1
@@ -42,6 +38,9 @@ com/dumb/dumb_deaf_system/signup.java
  com.dumb.dumb_deaf_system.signup$5
  com.dumb.dumb_deaf_system.signup$6
  com.dumb.dumb_deaf_system.signup$7
+com/dumb/dumb_deaf_system/splashscreen.java
+ com.dumb.dumb_deaf_system.splashscreen
+ com.dumb.dumb_deaf_system.splashscreen$1
 com/dumb/dumb_deaf_system/Network/RetrofitClass.java
  com.dumb.dumb_deaf_system.Network.RetrofitClass
 com/dumb/dumb_deaf_system/notalkfragment.java
@@ -62,7 +61,6 @@ com/dumb/dumb_deaf_system/MainActivity.java
  com.dumb.dumb_deaf_system.MainActivity$2$1
  com.dumb.dumb_deaf_system.MainActivity$3
  com.dumb.dumb_deaf_system.MainActivity$4
- com.dumb.dumb_deaf_system.MainActivity$5
 com/dumb/dumb_deaf_system/Adapters/adapter_talks_By_Cat.java
  com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat
  com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat$1
@@ -101,13 +99,15 @@ com/dumb/dumb_deaf_system/profile.java
  com.dumb.dumb_deaf_system.profile$7
  com.dumb.dumb_deaf_system.profile$8
  com.dumb.dumb_deaf_system.profile$9
-com/dumb/dumb_deaf_system/preferance/sharedpreferance.java
- com.dumb.dumb_deaf_system.preferance.sharedpreferance
 com/dumb/dumb_deaf_system/mytalks.java
  com.dumb.dumb_deaf_system.mytalks
  com.dumb.dumb_deaf_system.mytalks$1
  com.dumb.dumb_deaf_system.mytalks$2
  com.dumb.dumb_deaf_system.mytalks$3
+com/dumb/dumb_deaf_system/preferance/sharedpreferance.java
+ com.dumb.dumb_deaf_system.preferance.sharedpreferance
+com/dumb/dumb_deaf_system/Network/dbhandler.java
+ com.dumb.dumb_deaf_system.Network.dbhandler
 com/dumb/dumb_deaf_system/otp_screen.java
  com.dumb.dumb_deaf_system.otp_screen
  com.dumb.dumb_deaf_system.otp_screen$1
@@ -116,8 +116,6 @@ com/dumb/dumb_deaf_system/otp_screen.java
  com.dumb.dumb_deaf_system.otp_screen$4
  com.dumb.dumb_deaf_system.otp_screen$4$1
  com.dumb.dumb_deaf_system.otp_screen$4$1$1
-com/dumb/dumb_deaf_system/Network/dbhandler.java
- com.dumb.dumb_deaf_system.Network.dbhandler
 com/dumb/dumb_deaf_system/Network/apis.java
  com.dumb.dumb_deaf_system.Network.apis
 com/dumb/dumb_deaf_system/Adapters/AdapterCategories.java

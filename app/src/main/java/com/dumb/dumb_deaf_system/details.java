@@ -1,14 +1,19 @@
 package com.dumb.dumb_deaf_system;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.Manifest;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.media.Image;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -87,7 +92,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
     ImageView imageView;
     JcPlayerView voicePlayerView;
-
+int REQUEST_CODE=1;
     TextView head,detail,urdu_desc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -239,16 +244,31 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         }
 
         download.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
 
                 if (type.equals("gif")){
-                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
-                    AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
+                    if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                        Log.e("Permission error","You have permission");
+                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                        AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
+
+
+                    }else {
+                        haveStoragePermission();
+                    }
                 }
                 else {
-                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
-                    AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+                    if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+
+                    }else {
+
+
+                        haveStoragePermission();
+                    }
                 }
             }
         });
@@ -308,5 +328,64 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         intent.putExtra("urdu",urdu);
         startActivity(intent);
 
+    }
+    public  boolean haveStoragePermission() {
+        if (Build.VERSION.SDK_INT >= 23) {
+            if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    == PackageManager.PERMISSION_GRANTED) {
+                Log.e("Permission error","You have permission");
+                return true;
+            } else {
+
+                Log.e("Permission error","You have asked for permission");
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE);
+                return false;
+            }
+        }
+        else { //you dont need to worry about these stuff below api level 23
+            Log.e("Permission error","You already have the permission");
+            return true;
+        }
+    }
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if(grantResults[0]== PackageManager.PERMISSION_GRANTED && requestCode==REQUEST_CODE){
+            //you have the permission now.
+            if (type.equals("gif")){
+                if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                    Log.e("Permission error","You have permission");
+                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                    AltexImageDownloader.writeToDisk(details.this,gif, "IMAGES");
+
+
+
+                }else {
+                    haveStoragePermission();
+                }
+            }
+            else {
+                if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                    AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+
+                }else {
+
+
+                    haveStoragePermission();
+                }
+            }
+
+//            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(myurl));
+//            request.setTitle("Vertretungsplan");
+//            request.setDescription("wird heruntergeladen");
+//            request.allowScanningByMediaScanner();
+//            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+//            String filename = URLUtil.guessFileName(myurl, null, MimeTypeMap.getFileExtensionFromUrl(myurl));
+//            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, filename);
+//            DownloadManager manager = (DownloadManager) c.getSystemService(Context.DOWNLOAD_SERVICE);
+//            manager.enqueue(request);
+        }
     }
 }

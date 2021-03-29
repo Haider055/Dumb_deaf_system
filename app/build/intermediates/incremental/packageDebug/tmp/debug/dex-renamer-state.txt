@@ -1,10 +1,10 @@
-#Sun Mar 28 19:12:03 PKT 2021
+#Mon Mar 29 16:26:52 PKT 2021
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.1=/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
-base.0=/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.2=E\:\\Android Project\\Dumb_deaf_system\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.1=E\:\\Android Project\\Dumb_deaf_system\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.0=E\:\\Android Project\\Dumb_deaf_system\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
