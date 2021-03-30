@@ -304,7 +304,6 @@ int REQUEST_CODE=1;
         });
         showrelated(category);
 
-
     }
 
     private void showrelated(String cat) {
@@ -406,15 +405,11 @@ int REQUEST_CODE=1;
                     Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
                     AltexImageDownloader.writeToDisk(details.this,video, "Videos");
 
-
-
                 }else {
-
 
                     haveStoragePermission();
                 }
             }
-
 //            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(myurl));
 //            request.setTitle("Vertretungsplan");
 //            request.setDescription("wird heruntergeladen");
@@ -449,7 +444,6 @@ int REQUEST_CODE=1;
                             Log.d("wok",myBitmap.toString());
                             sentOnWatsuppImage("com.whatsapp",myBitmap);
                         }
-
 
                     }
                     else {
@@ -565,6 +559,4 @@ int REQUEST_CODE=1;
         destinationFile.mkdirs();
         return Uri.fromFile(destinationFile);
     }
-
-
 }

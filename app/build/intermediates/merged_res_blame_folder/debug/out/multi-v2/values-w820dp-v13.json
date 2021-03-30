@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Project\\dumb deaf\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ali pracha\\.gradle\\caches\\transforms-2\\files-2.1\\488f732a809c62fa4e298c721760e746\\jetified-JcPlayer-2.7.0\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/046f623e38e81f25da6331ca54ba001b/jetified-JcPlayer-2.7.0/res/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Project\\dumb deaf\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ali pracha\\.gradle\\caches\\transforms-2\\files-2.1\\5b5b7ff85fd10b55f3be5c6807f626b4\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/5b5b7ff85fd10b55f3be5c6807f626b4/material-1.2.1/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

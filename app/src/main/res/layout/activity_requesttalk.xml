@@ -88,13 +88,13 @@
 
             </RadioGroup>
 
-            <androidx.core.widget.ContentLoadingProgressBar
-                android:layout_width="match_parent"
-                android:layout_margin="8dp"
-                android:id="@+id/progress"
-                android:layout_height="wrap_content">
+<!--            <androidx.core.widget.ContentLoadingProgressBar-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_margin="8dp"-->
+<!--                android:id="@+id/progress"-->
+<!--                android:layout_height="wrap_content">-->
 
-            </androidx.core.widget.ContentLoadingProgressBar>
+<!--            </androidx.core.widget.ContentLoadingProgressBar>-->
 
             <LinearLayout
                 android:weightSum="2"
@@ -122,6 +122,19 @@
                 </Button>
 
             </LinearLayout>
+            <TextView
+                android:textColor="#9A9A9A"
+                android:text="Image uploaded"
+                android:drawableRight="@drawable/ic_baseline_check_box_24"
+                android:id="@+id/imageupload"
+                android:textSize="14dp"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abeezee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
             <Button
                 android:text="Upload Audio"
                 android:id="@+id/uploadaudiobutton"
@@ -131,6 +144,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </Button>
+
+            <TextView
+                android:textColor="#9A9A9A"
+                android:text="Audio uploaded"
+                android:drawableRight="@drawable/ic_baseline_check_box_24"
+                android:id="@+id/audioupload"
+                android:textSize="14dp"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abeezee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
 
             <RadioGroup
                 android:id="@+id/radio"
@@ -161,6 +188,20 @@
                 android:layout_height="wrap_content">
             </Button>
 
+
+
+
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:id="@+id/progress"
+                android:visibility="gone"
+                app:mpb_progressStyle="horizontal"
+                style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal">
+
+            </me.zhanghai.android.materialprogressbar.MaterialProgressBar>
 
         </LinearLayout>
 

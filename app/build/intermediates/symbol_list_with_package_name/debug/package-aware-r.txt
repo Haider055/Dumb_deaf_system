@@ -667,6 +667,19 @@ attr motionTarget
 attr motion_postLayoutCollision
 attr motion_triggerOnCollision
 attr moveWhenScrollAtTop
+attr mpb_determinateCircularProgressStyle
+attr mpb_indeterminateTint
+attr mpb_indeterminateTintMode
+attr mpb_progressBackgroundTint
+attr mpb_progressBackgroundTintMode
+attr mpb_progressStyle
+attr mpb_progressTint
+attr mpb_progressTintMode
+attr mpb_secondaryProgressTint
+attr mpb_secondaryProgressTintMode
+attr mpb_setBothDrawables
+attr mpb_showProgressBackground
+attr mpb_useIntrinsicPadding
 attr multiChoiceItemLayout
 attr navigationContentDescription
 attr navigationIcon
@@ -1826,6 +1839,7 @@ drawable ic_baseline_add_location_alt_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_arrow_forward_ios_24
+drawable ic_baseline_check_box_24
 drawable ic_baseline_create_24
 drawable ic_baseline_delete_24
 drawable ic_baseline_disable_wifi_24
@@ -2019,6 +2033,7 @@ id aspect_match
 id aspect_mp3
 id async
 id audioplayer
+id audioupload
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -2072,6 +2087,7 @@ id chip2
 id chip3
 id chip_group
 id chronometer
+id circular
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -2125,6 +2141,7 @@ id dragUp
 id drawer
 id dropdown_menu
 id dumb
+id dynamic
 id easeIn
 id easeInOut
 id easeOut
@@ -2201,6 +2218,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id horizontal
 id icon
 id icon_group
 id icon_only
@@ -2209,6 +2227,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageupload
 id imageview_account_profile
 id img
 id imgPause
@@ -3557,6 +3576,14 @@ style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
+style Widget_MaterialProgressBar_ProgressBar
+style Widget_MaterialProgressBar_ProgressBar_Horizontal
+style Widget_MaterialProgressBar_ProgressBar_Horizontal_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_Large
+style Widget_MaterialProgressBar_ProgressBar_Large_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_Small
+style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
 style Widget_Support_CoordinatorLayout
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
@@ -3636,6 +3663,7 @@ styleable MaterialCalendar android_windowFullscreen dayInvalidStyle daySelectedS
 styleable MaterialCalendarItem android_insetLeft android_insetRight android_insetTop android_insetBottom itemFillColor itemShapeAppearance itemShapeAppearanceOverlay itemStrokeColor itemStrokeWidth itemTextColor
 styleable MaterialCardView android_checkable cardForegroundColor checkedIcon checkedIconTint rippleColor shapeAppearance shapeAppearanceOverlay state_dragged strokeColor strokeWidth
 styleable MaterialCheckBox buttonTint useMaterialThemeColors
+styleable MaterialProgressBar mpb_determinateCircularProgressStyle mpb_indeterminateTint mpb_indeterminateTintMode mpb_progressBackgroundTint mpb_progressBackgroundTintMode mpb_progressStyle mpb_progressTint mpb_progressTintMode mpb_secondaryProgressTint mpb_secondaryProgressTintMode mpb_setBothDrawables mpb_showProgressBackground mpb_useIntrinsicPadding
 styleable MaterialRadioButton buttonTint useMaterialThemeColors
 styleable MaterialShape shapeAppearance shapeAppearanceOverlay
 styleable MaterialTextAppearance android_lineHeight lineHeight

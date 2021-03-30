@@ -24,8 +24,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
@@ -65,8 +67,9 @@ public class requesttalk extends AppCompatActivity {
     String category="";
     androidx.appcompat.widget.Toolbar toolbar;
 
-    androidx.core.widget.ContentLoadingProgressBar progressBar;
+    me.zhanghai.android.materialprogressbar.MaterialProgressBar progressBar;
 
+    TextView uploadtext,uploadaudiotext;
     String[] country;
     Spinner spinner;
     List<modelcategories> listofcategory;
@@ -151,6 +154,9 @@ public class requesttalk extends AppCompatActivity {
                         imageurl=uri.toString();
                         videourl="";
                         Toast.makeText(requesttalk.this, "Image uploaded", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+                        uploadtext.setVisibility(View.VISIBLE);
+                        uploadtext.setText("Image uploaded");
                         //https://aditya58singh.medium.com/how-to-get-audio-files-from-the-internal-storage-in-android-d905b2488ddc
                     }
                 });
@@ -158,8 +164,7 @@ public class requesttalk extends AppCompatActivity {
         }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
-                progressBar.show();
-
+                progressBar.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -177,9 +182,18 @@ public class requesttalk extends AppCompatActivity {
                         videourl=uri.toString();
                         imageurl="";
                         Toast.makeText(requesttalk.this, "Video uploaded", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+                        uploadtext.setVisibility(View.VISIBLE);
+                        uploadtext.setText("Video uploaded");
+
                         //https://aditya58singh.medium.com/how-to-get-audio-files-from-the-internal-storage-in-android-d905b2488ddc
                     }
                 });
+            }
+        }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
+                progressBar.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -196,6 +210,8 @@ public class requesttalk extends AppCompatActivity {
                     public void onSuccess(Uri uri) {
                         audiourl=uri.toString();
                         Toast.makeText(requesttalk.this, "Audio uploaded", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+                        uploadaudiotext.setVisibility(View.VISIBLE);
                         //https://aditya58singh.medium.com/how-to-get-audio-files-from-the-internal-storage-in-android-d905b2488ddc
                     }
                 });
@@ -204,6 +220,11 @@ public class requesttalk extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(requesttalk.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
+                progressBar.setVisibility(View.VISIBLE);
             }
         });
 
@@ -233,6 +254,13 @@ public class requesttalk extends AppCompatActivity {
         uploadvideobutton.setVisibility(View.GONE);
 
         progressBar=findViewById(R.id.progress);
+
+        uploadtext=findViewById(R.id.imageupload);
+        uploadtext.setVisibility(View.GONE);
+
+
+        uploadaudiotext=findViewById(R.id.audioupload);
+        uploadaudiotext.setVisibility(View.GONE);
 
         Window window =getWindow();
 

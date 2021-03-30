@@ -261,26 +261,26 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
         if (shared.getString("loginstatus","false").equals("true")){
 
-        }
-        else {
             Intent intent=new Intent(MainActivity.this,talks.class);
             intent.putExtra("id",id);
             intent.putExtra("category",name);
             startActivity(intent);
-//            builderlogin = new AlertDialog.Builder(this);
-//            View viewlogin = LayoutInflater.from(this).inflate(R.layout.popupforlogin, null);
-//            builderlogin.setView(viewlogin);
-//            alertlogin = builderlogin.create();
-//            alertlogin.show();
-//
-//            Button login;
-//            login=viewlogin.findViewById(R.id.login);
-//            login.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    startActivity(new Intent(MainActivity.this,Loginpage.class));
-//                }
-//            });
+        }
+        else {
+            builderlogin = new AlertDialog.Builder(this);
+            View viewlogin = LayoutInflater.from(this).inflate(R.layout.popupforlogin, null);
+            builderlogin.setView(viewlogin);
+            alertlogin = builderlogin.create();
+            alertlogin.show();
+
+            Button login;
+            login=viewlogin.findViewById(R.id.login);
+            login.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(MainActivity.this,Loginpage.class));
+                }
+            });
 
         }
     }
