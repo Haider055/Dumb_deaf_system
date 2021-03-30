@@ -1,33 +1,23 @@
 com/dumb/dumb_deaf_system/BuildConfig.java
  com.dumb.dumb_deaf_system.BuildConfig
-com/dumb/dumb_deaf_system/Adapters/adapter_myrequests.java
- com.dumb.dumb_deaf_system.Adapters.adapter_myrequests
- com.dumb.dumb_deaf_system.Adapters.adapter_myrequests$holder
+com/dumb/dumb_deaf_system/talks.java
+ com.dumb.dumb_deaf_system.talks
+ com.dumb.dumb_deaf_system.talks$1
+ com.dumb.dumb_deaf_system.talks$2
+ com.dumb.dumb_deaf_system.talks$3
 com/dumb/dumb_deaf_system/Adapters/adaptermytalks.java
  com.dumb.dumb_deaf_system.Adapters.adaptermytalks
  com.dumb.dumb_deaf_system.Adapters.adaptermytalks$1
  com.dumb.dumb_deaf_system.Adapters.adaptermytalks$holder
  com.dumb.dumb_deaf_system.Adapters.adaptermytalks$onclick
-com/dumb/dumb_deaf_system/requesttalk.java
- com.dumb.dumb_deaf_system.requesttalk
- com.dumb.dumb_deaf_system.requesttalk$1
- com.dumb.dumb_deaf_system.requesttalk$10
- com.dumb.dumb_deaf_system.requesttalk$11
- com.dumb.dumb_deaf_system.requesttalk$12
- com.dumb.dumb_deaf_system.requesttalk$13
- com.dumb.dumb_deaf_system.requesttalk$14
- com.dumb.dumb_deaf_system.requesttalk$14$1
- com.dumb.dumb_deaf_system.requesttalk$2
- com.dumb.dumb_deaf_system.requesttalk$2$1
- com.dumb.dumb_deaf_system.requesttalk$3
- com.dumb.dumb_deaf_system.requesttalk$3$1
- com.dumb.dumb_deaf_system.requesttalk$4
- com.dumb.dumb_deaf_system.requesttalk$5
- com.dumb.dumb_deaf_system.requesttalk$5$1
- com.dumb.dumb_deaf_system.requesttalk$6
- com.dumb.dumb_deaf_system.requesttalk$7
- com.dumb.dumb_deaf_system.requesttalk$8
- com.dumb.dumb_deaf_system.requesttalk$9
+com/dumb/dumb_deaf_system/details.java
+ com.dumb.dumb_deaf_system.details
+ com.dumb.dumb_deaf_system.details$1
+ com.dumb.dumb_deaf_system.details$2
+ com.dumb.dumb_deaf_system.details$3
+ com.dumb.dumb_deaf_system.details$4
+ com.dumb.dumb_deaf_system.details$5
+ com.dumb.dumb_deaf_system.details$6
 com/dumb/dumb_deaf_system/Loginpage.java
  com.dumb.dumb_deaf_system.Loginpage
  com.dumb.dumb_deaf_system.Loginpage$1
@@ -110,8 +100,11 @@ com/dumb/dumb_deaf_system/profile.java
  com.dumb.dumb_deaf_system.profile$7
  com.dumb.dumb_deaf_system.profile$8
  com.dumb.dumb_deaf_system.profile$9
-com/dumb/dumb_deaf_system/models/model_myrequests.java
- com.dumb.dumb_deaf_system.models.model_myrequests
+com/dumb/dumb_deaf_system/mytalks.java
+ com.dumb.dumb_deaf_system.mytalks
+ com.dumb.dumb_deaf_system.mytalks$1
+ com.dumb.dumb_deaf_system.mytalks$2
+ com.dumb.dumb_deaf_system.mytalks$3
 com/dumb/dumb_deaf_system/preferance/sharedpreferance.java
  com.dumb.dumb_deaf_system.preferance.sharedpreferance
 com/dumb/dumb_deaf_system/Network/dbhandler.java
@@ -135,28 +128,34 @@ com/dumb/dumb_deaf_system/Adapters/AdapterCategories.java
 com/dumb/dumb_deaf_system/myfavourites.java
  com.dumb.dumb_deaf_system.myfavourites
  com.dumb.dumb_deaf_system.myfavourites$1
-com/dumb/dumb_deaf_system/talks.java
- com.dumb.dumb_deaf_system.talks
- com.dumb.dumb_deaf_system.talks$1
- com.dumb.dumb_deaf_system.talks$2
- com.dumb.dumb_deaf_system.talks$3
-com/dumb/dumb_deaf_system/mytalks.java
- com.dumb.dumb_deaf_system.mytalks
- com.dumb.dumb_deaf_system.mytalks$1
- com.dumb.dumb_deaf_system.mytalks$2
- com.dumb.dumb_deaf_system.mytalks$3
 com/dumb/dumb_deaf_system/Adapters/adapter_myfav.java
  com.dumb.dumb_deaf_system.Adapters.adapter_myfav
  com.dumb.dumb_deaf_system.Adapters.adapter_myfav$1
  com.dumb.dumb_deaf_system.Adapters.adapter_myfav$2
  com.dumb.dumb_deaf_system.Adapters.adapter_myfav$del
  com.dumb.dumb_deaf_system.Adapters.adapter_myfav$holder
-com/dumb/dumb_deaf_system/details.java
- com.dumb.dumb_deaf_system.details
- com.dumb.dumb_deaf_system.details$1
- com.dumb.dumb_deaf_system.details$2
- com.dumb.dumb_deaf_system.details$3
- com.dumb.dumb_deaf_system.details$4
- com.dumb.dumb_deaf_system.details$5
- com.dumb.dumb_deaf_system.details$6
- com.dumb.dumb_deaf_system.details$7
+com/dumb/dumb_deaf_system/requesttalk.java
+ com.dumb.dumb_deaf_system.requesttalk
+ com.dumb.dumb_deaf_system.requesttalk$1
+ com.dumb.dumb_deaf_system.requesttalk$10
+ com.dumb.dumb_deaf_system.requesttalk$11
+ com.dumb.dumb_deaf_system.requesttalk$12
+ com.dumb.dumb_deaf_system.requesttalk$13
+ com.dumb.dumb_deaf_system.requesttalk$14
+ com.dumb.dumb_deaf_system.requesttalk$14$1
+ com.dumb.dumb_deaf_system.requesttalk$2
+ com.dumb.dumb_deaf_system.requesttalk$2$1
+ com.dumb.dumb_deaf_system.requesttalk$3
+ com.dumb.dumb_deaf_system.requesttalk$3$1
+ com.dumb.dumb_deaf_system.requesttalk$4
+ com.dumb.dumb_deaf_system.requesttalk$5
+ com.dumb.dumb_deaf_system.requesttalk$5$1
+ com.dumb.dumb_deaf_system.requesttalk$6
+ com.dumb.dumb_deaf_system.requesttalk$7
+ com.dumb.dumb_deaf_system.requesttalk$8
+ com.dumb.dumb_deaf_system.requesttalk$9
+com/dumb/dumb_deaf_system/models/model_myrequests.java
+ com.dumb.dumb_deaf_system.models.model_myrequests
+com/dumb/dumb_deaf_system/Adapters/adapter_myrequests.java
+ com.dumb.dumb_deaf_system.Adapters.adapter_myrequests
+ com.dumb.dumb_deaf_system.Adapters.adapter_myrequests$holder

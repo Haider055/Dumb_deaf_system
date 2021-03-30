@@ -1,10 +1,12 @@
 package com.dumb.dumb_deaf_system;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -44,6 +46,7 @@ import com.example.jean.jcplayer.JcPlayerManagerListener;
 import com.example.jean.jcplayer.general.JcStatus;
 import com.example.jean.jcplayer.model.JcAudio;
 import com.example.jean.jcplayer.view.JcPlayerView;
+import com.google.android.gms.common.internal.Constants;
 import com.potyvideo.library.AndExoPlayerView;
 import com.squareup.picasso.Picasso;
 
@@ -261,10 +264,6 @@ int REQUEST_CODE=1;
                         Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
                         String imageFileName = "DumbIMAGES"+id+ ".jpg";
                         AltexImageDownloader.writeToDisk(details.this,gif, imageFileName);
-//                        File bitmapFile = new File(Environment.getExternalStorageDirectory() + "/" + imageFileName);
-//                        Bitmap bitmap = BitmapFactory.decodeFile(String.valueOf(bitmapFile));
-//                        Uri uriDownload=Uri.fromFile(bitmapFile);
-//                        Toast.makeText(details.this,uriDownload.toString() , Toast.LENGTH_SHORT).show();
                         getBitmapFromURL(gif);
 
                     }else {
@@ -273,10 +272,30 @@ int REQUEST_CODE=1;
                 }
                 else {
                     if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-//                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
 //                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
-//                        getBitmapFromURL(video);
-                        downloadfile(video);
+//
+                        downloadVideoAndSaveInStorage(details.this,video,"Videos");
+//                        Uri uri = Uri.parse(video);
+//                        String fileName = "Videos"+uri.getLastPathSegment();
+//                        Log.d("fileName",fileName);
+//                        String yourFilePath =  "/" + "Pictures/";
+//
+//
+//Log.d("path",yourFilePath);
+//                        File myFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() +
+//                                yourFilePath, fileName);
+//
+//                        Uri photoURI = FileProvider.getUriForFile(details.this, BuildConfig.APPLICATION_ID + ".provider",myFile);
+//
+//                        Log.d("uri",photoURI.toString());
+//                        if(myFile.exists()){
+//                            sentVideoToWatsupp(photoURI);
+//                        }else {
+//                            Toast.makeText(details.this, "Not avalable", Toast.LENGTH_SHORT).show();
+//                        }
+
+
                     }else {
 
 
@@ -390,6 +409,7 @@ int REQUEST_CODE=1;
                     AltexImageDownloader.writeToDisk(details.this,video, "Videos");
 
 
+
                 }else {
 
 
@@ -471,44 +491,44 @@ int REQUEST_CODE=1;
         }
     }
 
-    private void downloadfile(String vidurl) {
-new Thread(new Runnable() {
-    @Override
-    public void run() {
-        SimpleDateFormat sd = new SimpleDateFormat("yymmhh");
-        String date = sd.format(new Date());
-        String name = "video" + date + ".mp4";
-
-        try {
-            String rootDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
-                    + File.separator + "My_Video";
-            File rootFile = new File(rootDir);
-            rootFile.mkdir();
-            URL url = new URL(vidurl);
-            HttpURLConnection c = (HttpURLConnection) url.openConnection();
-            c.setRequestMethod("GET");
-            c.setDoOutput(true);
-            c.connect();
-            FileOutputStream f = new FileOutputStream(new File(rootFile,
-                    name));
-            InputStream in = c.getInputStream();
-            byte[] buffer = new byte[1024];
-            int len1 = 0;
-            while ((len1 = in.read(buffer)) > 0) {
-                f.write(buffer, 0, len1);
-            }
-            Log.d("complete", "working");
-            sentVideoToWatsupp(date);
-            f.close();
-        } catch (IOException e) {
-            Log.d("Error....", e.toString());
-        }
-    }
-}).start();
-    }
-   void sentVideoToWatsupp(String path){
+//    private void downloadfile(String vidurl) {
+//new Thread(new Runnable() {
+//    @Override
+//    public void run() {
+//        SimpleDateFormat sd = new SimpleDateFormat("yymmhh");
+//        String date = sd.format(new Date());
+//        String name = "video" + date + ".mp4";
+//
+//        try {
+//            String rootDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+//                    + File.separator + "My_Video";
+//            File rootFile = new File(rootDir);
+//            rootFile.mkdir();
+//            URL url = new URL(vidurl);
+//            HttpURLConnection c = (HttpURLConnection) url.openConnection();
+//            c.setRequestMethod("GET");
+//            c.setDoOutput(true);
+//            c.connect();
+//            FileOutputStream f = new FileOutputStream(new File(rootFile,
+//                    name));
+//            InputStream in = c.getInputStream();
+//            byte[] buffer = new byte[1024];
+//            int len1 = 0;
+//            while ((len1 = in.read(buffer)) > 0) {
+//                f.write(buffer, 0, len1);
+//            }
+//            Log.d("complete", "working");
+//            sentVideoToWatsupp(name);
+//            f.close();
+//        } catch (IOException e) {
+//            Log.d("Error....", e.toString());
+//        }
+//    }
+//}).start();
+//    }
+   void sentVideoToWatsupp(Uri uri){
      Log.d("here","ask");
-       Uri uri = Uri.parse(Environment.getExternalStorageDirectory()+path);
+//       Uri uri = Uri.parse(Environment.getExternalStorageDirectory()+path);
        Intent share = new Intent(Intent.ACTION_SEND);
        share.setPackage("com.whatsapp");
        share.putExtra(Intent.EXTRA_STREAM, uri);
@@ -516,4 +536,30 @@ new Thread(new Runnable() {
        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
        startActivity(Intent.createChooser(share, "Share image File"));
     }
+
+    void downloadVideoAndSaveInStorage(Context context, @NonNull String imageUrl, @NonNull String downloadSubfolder){
+        Uri imageUri = Uri.parse(imageUrl);
+        String fileName = imageUri.getLastPathSegment();
+        String downloadSubpath = downloadSubfolder + fileName;
+        DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(video));
+        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+        request.setDescription(video);
+        request.allowScanningByMediaScanner();
+        request.setDestinationUri(getDownloadDestination(downloadSubpath));
+
+        downloadManager.enqueue(request);
+     Uri uri=getDownloadDestination(downloadSubpath);
+        Log.d("pathOfDownload",uri.toString());
+        sentVideoToWatsupp(uri);
+    }
+    @NonNull
+    public static Uri getDownloadDestination(String downloadSubpath) {
+        File picturesFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        File destinationFile = new File(picturesFolder, downloadSubpath);
+        destinationFile.mkdirs();
+        return Uri.fromFile(destinationFile);
+    }
+
+
 }
