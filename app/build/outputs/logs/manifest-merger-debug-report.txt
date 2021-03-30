@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:43:9-51:20
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:grantUriPermissions
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:47:13-47
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:61:13-47
 	android:authorities
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:45:13-60
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:59:13-60
 	android:exported
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:44:13-62
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:58:13-62
 manifest
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [com.github.mukeshsolanki:android-otpview-pinview:2.1.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d9b8f5f9f3627e390f5784fbff170424\jetified-android-otpview-pinview-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6296c221fd4fda95bad0faf2d25dc04b\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
@@ -84,22 +84,22 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ali pracha\.gradle\
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d252eea3f13a22cc5333f6e9cab831c9\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.daimajia.easing:library:2.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\387b7472d8ce57c25155e6fd390563e1\jetified-library-2.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\1da1aed3e0fdc3f58cdbc0340223dd22\jetified-library-2.3\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
-INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
 		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-99:12
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:2:11-69
@@ -108,35 +108,23 @@ ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:7:5-70
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:5-70
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:7:22-67
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:22-67
 uses-permission#android.permission.ACCESS_MEDIA_LOCATION
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.CAMERA
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:10:22-76
-uses-permission#android.permission.INTERNET
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:11:5-67
-MERGED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:5-67
-MERGED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:5-67
-MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\c4ea8c0e49dccbec8ededc7b6dcc748e\jetified-MagicalExoPlayer-1.0.16\AndroidManifest.xml:11:5-67
-MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\c4ea8c0e49dccbec8ededc7b6dcc748e\jetified-MagicalExoPlayer-1.0.16\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:27:5-67
-	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:26:5-79
@@ -144,49 +132,47 @@ MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.g
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\7e8673cb26e65e64f3395bc12a8872e7\jetified-exoplayer-core-2.11.4\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\7e8673cb26e65e64f3395bc12a8872e7\jetified-exoplayer-core-2.11.4\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:15:5-84
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:21:5-84
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:15:22-81
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:21:22-81
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:5-82
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:16:22-79
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:23:22-79
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:5-80
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:25:5-80
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:17:22-77
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:25:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:5-81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:19:22-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:28:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:20:5-68
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:5-68
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:20:22-65
-uses-permission#android.permission.READ_INTERNAL_STORAGE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:23:5-80
-	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:23:22-77
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:30:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:24:5-81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:36:5-37:40
+	tools:ignore
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:37:9-37
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:24:22-78
-uses-permission#android.permission.WRITE_INTERNAL_STORAGE
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:25:5-81
-	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:36:22-78
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:26:5-88
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:39:5-88
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:26:22-85
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:39:22-85
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:43:5-80
+	android:name
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:43:22-77
 application
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:33:5-97:19
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:47:5-111:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6296c221fd4fda95bad0faf2d25dc04b\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
@@ -230,111 +216,111 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\al
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\390cf51aa60060bd0d3cd94108add78e\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:39:9-35
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:53:9-35
 	android:label
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:36:9-41
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:50:9-41
 		REJECTED from [com.github.adhishlal:gifloader:1.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d13d0edc7a6ae8a3c3f33350d9c6f4f3\jetified-gifloader-1.1\AndroidManifest.xml:13:9-41
 		REJECTED from [com.artjimlop:altex-image-downloader:0.0.4] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\535d682a101eebce97c10766fbdb9c2d\jetified-altex-image-downloader-0.0.4\AndroidManifest.xml:11:18-50
 	android:roundIcon
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:38:9-54
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:52:9-54
 	android:icon
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:35:9-43
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:49:9-43
 	android:allowBackup
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:34:9-35
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:48:9-35
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:40:9-54
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:54:9-54
 	android:networkSecurityConfig
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:37:9-69
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:51:9-69
 	tools:replace
 		ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:17:9-38
 	android:usesCleartextTraffic
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:41:9-44
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:55:9-44
 activity#com.dumb.dumb_deaf_system.otp_screen
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:53:9-48
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:67:9-48
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:53:19-45
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:67:19-45
 activity#com.dumb.dumb_deaf_system.myfavourites
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:54:9-56:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:68:9-70:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:56:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:70:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:55:13-41
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:69:13-41
 activity#com.dumb.dumb_deaf_system.my_requests
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:57:9-59:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:71:9-73:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:59:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:73:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:58:13-40
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:72:13-40
 activity#com.dumb.dumb_deaf_system.mytalks
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:60:9-62:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:74:9-76:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:62:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:76:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:61:13-36
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:75:13-36
 activity#com.dumb.dumb_deaf_system.requesttalk
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:63:9-65:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:77:9-79:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:65:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:79:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:64:13-40
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:78:13-40
 activity#com.dumb.dumb_deaf_system.profile
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:66:9-68:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:80:9-82:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:68:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:82:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:81:13-36
 activity#com.dumb.dumb_deaf_system.talks
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:69:9-71:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:83:9-85:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:71:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:85:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:70:13-34
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:84:13-34
 activity#com.dumb.dumb_deaf_system.details
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:72:9-74:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:86:9-88:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:74:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:88:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:73:13-36
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:87:13-36
 activity#com.dumb.dumb_deaf_system.signup
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:75:9-77:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:89:9-91:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:77:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:91:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:76:13-35
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:90:13-35
 activity#com.dumb.dumb_deaf_system.Loginpage
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:78:9-80:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:92:9-94:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:80:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:94:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:79:13-38
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:93:13-38
 activity#com.dumb.dumb_deaf_system.MainActivity
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:81:9-83:81
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:95:9-97:81
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:83:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:97:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:82:13-41
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:96:13-41
 activity#com.dumb.dumb_deaf_system.splashscreen
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:84:9-92:20
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:98:9-106:20
 	android:theme
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:86:13-78
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:100:13-78
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:85:13-41
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:99:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:87:13-91:29
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:101:13-105:29
 action#android.intent.action.MAIN
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:88:17-69
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:102:17-69
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:88:25-66
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:102:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:90:17-77
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:104:17-77
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:90:27-74
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:104:27-74
 meta-data#preloaded_fonts
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:94:9-96:57
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:108:9-110:57
 	android:resource
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:96:13-54
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:110:13-54
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:95:13-43
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:109:13-43
 uses-sdk
 INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
@@ -488,11 +474,11 @@ INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:48:13-50:58
+ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:62:13-64:58
 	android:resource
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:50:17-55
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:64:17-55
 	android:name
-		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:49:17-67
+		ADDED from D:\Android Project\dumb deaf\app\src\main\AndroidManifest.xml:63:17-67
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
@@ -501,6 +487,16 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\ca
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\6fa7aac6f5a00af3453c10905bf37e2e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+uses-permission#android.permission.INTERNET
+ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:5-67
+MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\c4ea8c0e49dccbec8ededc7b6dcc748e\jetified-MagicalExoPlayer-1.0.16\AndroidManifest.xml:11:5-67
+MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\c4ea8c0e49dccbec8ededc7b6dcc748e\jetified-MagicalExoPlayer-1.0.16\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.1] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:22-64
 service#com.example.jean.jcplayer.service.JcPlayerService
 ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\ali pracha\.gradle\caches\transforms-2\files-2.1\488f732a809c62fa4e298c721760e746\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:9-85
 	android:name

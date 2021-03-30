@@ -24,6 +24,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -283,10 +284,7 @@ int REQUEST_CODE=1;
 //
 //
 //Log.d("path",yourFilePath);
-//                        File myFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() +
-//                                yourFilePath, fileName);
-//
-//                        Uri photoURI = FileProvider.getUriForFile(details.this, BuildConfig.APPLICATION_ID + ".provider",myFile);
+
 //
 //                        Log.d("uri",photoURI.toString());
 //                        if(myFile.exists()){
@@ -527,8 +525,14 @@ int REQUEST_CODE=1;
 //}).start();
 //    }
    void sentVideoToWatsupp(Uri uri){
+       StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+       StrictMode.setVmPolicy(builder.build());
      Log.d("here","ask");
 //       Uri uri = Uri.parse(Environment.getExternalStorageDirectory()+path);
+       File myFile = new File(uri.getPath());
+
+       Uri photoURI = FileProvider.getUriForFile(details.this, BuildConfig.APPLICATION_ID + ".provider",myFile);
+       Log.d("url",photoURI.toString());
        Intent share = new Intent(Intent.ACTION_SEND);
        share.setPackage("com.whatsapp");
        share.putExtra(Intent.EXTRA_STREAM, uri);
@@ -539,19 +543,20 @@ int REQUEST_CODE=1;
 
     void downloadVideoAndSaveInStorage(Context context, @NonNull String imageUrl, @NonNull String downloadSubfolder){
         Uri imageUri = Uri.parse(imageUrl);
+
         String fileName = imageUri.getLastPathSegment();
         String downloadSubpath = downloadSubfolder + fileName;
+        Uri pathOfFile = getDownloadDestination(downloadSubpath);
         DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(video));
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         request.setDescription(video);
         request.allowScanningByMediaScanner();
-        request.setDestinationUri(getDownloadDestination(downloadSubpath));
+        request.setDestinationUri(pathOfFile);
 
         downloadManager.enqueue(request);
-     Uri uri=getDownloadDestination(downloadSubpath);
-        Log.d("pathOfDownload",uri.toString());
-        sentVideoToWatsupp(uri);
+        //sentVideoToWatsupp(pathOfFile);
+        Log.d("path",pathOfFile.toString());
     }
     @NonNull
     public static Uri getDownloadDestination(String downloadSubpath) {
