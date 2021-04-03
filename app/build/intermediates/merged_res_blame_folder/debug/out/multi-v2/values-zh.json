@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,156,207,271,325",
+                        "endColumns": "41,58,50,63,53,54",
+                        "endOffsets": "92,151,202,266,320,375"
+                    }
+                }
+            ]
+        }
+    ]
+}
