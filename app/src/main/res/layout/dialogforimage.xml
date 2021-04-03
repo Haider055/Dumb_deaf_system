@@ -3,27 +3,49 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_margin="16dp"
     android:gravity="center">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:text="Gallery"/>
-    <ImageView
+
+    <LinearLayout
         android:id="@+id/galaryImage"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginRight="4dp"
-        android:src="@drawable/ic_baseline_image_24"/>
-    <TextView
+        android:gravity="center"
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:layout_marginLeft="4dp"
-        android:text="Take Image"/>
-    <ImageView
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Gallery"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/ic_baseline_image_24"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
         android:id="@+id/camraImage"
-        android:layout_width="50dp"
-        android:src="@drawable/ic_baseline_photo_camera_24"
-        android:layout_height="50dp"/>
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="4dp"
+            android:text="Take Image"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
 </LinearLayout>

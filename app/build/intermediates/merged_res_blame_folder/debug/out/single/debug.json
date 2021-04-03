@@ -36,12 +36,12 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myfav.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_talks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_talks.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_talks.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_talks.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xhdpi_loginbackground.jpeg.flat",
@@ -116,12 +116,12 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_add_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gradient.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_for_categories.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_categories.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gradient.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_splashscreen.png.flat",

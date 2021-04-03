@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -42,17 +43,15 @@ public class signup extends AppCompatActivity {
     String genderString,typeString;
     RadioGroup gender,type;
 
-    CircularProgressBar circularProgressBar;
     String imageUpdateString="";
     FloatingActionButton choseimg;
     Uri imageUri;
 
     Button signup;
 
-    ProgressBar bar;
     CircleImageView profileimage;
     int CAMERA_PERMISSION_CODE=100;
-    ImageView camera,gallary;
+    LinearLayout camera,gallary;
     AlertDialog alertDialog;
 
 
@@ -247,9 +246,6 @@ public class signup extends AppCompatActivity {
                                             intent.putExtra("type",typeString);
                                             startActivity(intent);
 
-
-
-
                         }
 
                         }
@@ -268,6 +264,19 @@ public class signup extends AppCompatActivity {
         if (requestCode == CAMERA_PERMISSION_CODE)  {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(signup.this, "Permission GRANTED", Toast.LENGTH_SHORT).show();
+
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(signup.this.getPackageManager()) != null) {
+                    try {
+                        startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                    } catch (Exception e) {
+                        Toast.makeText(signup.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+
+
+
             } else {
                 Toast.makeText(signup.this, "Permission DENIED", Toast.LENGTH_SHORT).show();
             }

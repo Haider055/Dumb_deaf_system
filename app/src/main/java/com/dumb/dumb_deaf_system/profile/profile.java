@@ -1,5 +1,6 @@
 package com.dumb.dumb_deaf_system.profile;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -24,6 +25,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,6 +34,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.dumb.dumb_deaf_system.Network.RetrofitClass;
 import com.dumb.dumb_deaf_system.R;
+import com.dumb.dumb_deaf_system.authentications.signup;
 import com.dumb.dumb_deaf_system.models.modelGetDataByLogin;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
@@ -59,7 +62,7 @@ public class profile extends AppCompatActivity {
     CircleImageView profileimage;
     FloatingActionButton choseimg;
     int CAMERA_PERMISSION_CODE=100;
-    ImageView camera,gallary;
+    LinearLayout camera,gallary;
     AlertDialog alertDialog;
     String Imagestring="";
 
@@ -552,7 +555,7 @@ public class profile extends AppCompatActivity {
 
         builder = new AlertDialog.Builder(profile.this);
         View viewimg = LayoutInflater.from(profile.this).inflate(R.layout.dialogforimage, null);
-        builder.setView(viewimg).setTitle("Select You Image");
+        builder.setView(viewimg).setTitle("Select Your Image");
         alertDialog = builder.create();
         alertDialog.show();
         camera = viewimg.findViewById(R.id.camraImage);
@@ -714,6 +717,33 @@ public class profile extends AppCompatActivity {
         }
 
 
+
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+
+        if (requestCode == CAMERA_PERMISSION_CODE)  {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(profile.this, "Permission GRANTED", Toast.LENGTH_SHORT).show();
+
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(profile.this.getPackageManager()) != null) {
+                    try {
+                        startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                    } catch (Exception e) {
+                        Toast.makeText(profile.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+
+
+
+            } else {
+                Toast.makeText(profile.this, "Permission DENIED", Toast.LENGTH_SHORT).show();
+            }
+        }
 
 
     }
