@@ -751,6 +751,7 @@ attr progressBarPadding
 attr progressBarStyle
 attr progressTimeColor
 attr progress_color
+attr progress_drawable
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
@@ -805,6 +806,7 @@ attr shareBackgroundColor
 attr shareCornerRadius
 attr shareText
 attr showAsAction
+attr showBottomProgress
 attr showDividers
 attr showMotionSpec
 attr showPaths
@@ -959,6 +961,7 @@ attr titleMargins
 attr titleTextAppearance
 attr titleTextColor
 attr titleTextStyle
+attr title_size
 attr toolbarId
 attr toolbarNavigationButtonStyle
 attr toolbarStyle
@@ -1144,6 +1147,7 @@ color exo_error_message_background_color
 color foreground_material_dark
 color foreground_material_light
 color fuchsia
+color gary
 color gray
 color green
 color highlighted_text_material_dark
@@ -1244,6 +1248,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color progress_color
 color purple
 color purple_200
 color purple_500
@@ -1252,11 +1257,13 @@ color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
 color ripple_material_light
+color secProgress_color
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
 color silver
+color solid_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1460,6 +1467,20 @@ dimen material_emphasis_high_type
 dimen material_emphasis_medium
 dimen material_text_view_test_line_height
 dimen material_text_view_test_line_height_override
+dimen mobile_dialog_image_marginTop
+dimen mobile_dialog_image_tip_height
+dimen mobile_dialog_image_tip_width
+dimen mobile_dialog_ll_tv_marginTop
+dimen mobile_dialog_progress_height
+dimen mobile_dialog_progress_marginBottom
+dimen mobile_dialog_progress_marginLeft
+dimen mobile_dialog_progress_marginRight
+dimen mobile_dialog_progress_marginTop
+dimen mobile_dialog_tv_textSize
+dimen mobile_volume_dialog_iv_height
+dimen mobile_volume_dialog_iv_marginBottom
+dimen mobile_volume_dialog_iv_marginTop
+dimen mobile_volume_dialog_iv_width
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -1623,6 +1644,38 @@ dimen mtrl_tooltip_minHeight
 dimen mtrl_tooltip_minWidth
 dimen mtrl_tooltip_padding
 dimen mtrl_transition_shared_axis_slide_distance
+dimen mx_current_time_marginLeft
+dimen mx_fullscreen_paddingRight
+dimen mx_iv_back_height
+dimen mx_iv_back_marginRight
+dimen mx_iv_back_paddingLeft
+dimen mx_iv_back_width
+dimen mx_layout_bottom_height
+dimen mx_layout_top_height
+dimen mx_loading_height
+dimen mx_loading_width
+dimen mx_mobile_dialog_width
+dimen mx_progress_dialog_margin_top
+dimen mx_progress_height
+dimen mx_progress_padding
+dimen mx_start_btn_height
+dimen mx_start_btn_width
+dimen mx_tiny_height
+dimen mx_tiny_marginLeft
+dimen mx_tiny_marginTop
+dimen mx_tiny_width
+dimen mx_title_textSize
+dimen mx_total_time_marginRight
+dimen mx_tv_iv_back_paddingLeft
+dimen mx_tv_layout_top_height
+dimen mx_tv_loading_height
+dimen mx_tv_loading_width
+dimen mx_tv_progress_dialog_margin_top
+dimen mx_tv_start_btn_height
+dimen mx_tv_start_btn_width
+dimen mx_tv_time_textSize
+dimen mx_tv_title_textSize
+dimen mx_volume_dialog_margin_top
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -1668,6 +1721,12 @@ dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
 dimen touch_default
+dimen tv_dialog_tv_textSize
+dimen tv_progress_dialog_width
+dimen tv_volume_dialog_iv_height
+dimen tv_volume_dialog_iv_width
+dimen tv_volume_dialog_ll_height
+dimen tv_volume_dialog_ll_width
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1756,6 +1815,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgroundoflogin
+drawable backgroundoftoogle
 drawable bg_player_dark
 drawable bg_player_white
 drawable btn_checkbox_checked_mtrl
@@ -1838,11 +1899,13 @@ drawable ic_baseline_add_24
 drawable ic_baseline_add_location_alt_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_back_ios_24
+drawable ic_baseline_arrow_downward_24
 drawable ic_baseline_arrow_forward_ios_24
 drawable ic_baseline_check_box_24
 drawable ic_baseline_create_24
 drawable ic_baseline_delete_24
 drawable ic_baseline_disable_wifi_24
+drawable ic_baseline_download_app_24
 drawable ic_baseline_edit_24
 drawable ic_baseline_email_24
 drawable ic_baseline_favorite_24
@@ -1861,7 +1924,10 @@ drawable ic_baseline_person_pin_24
 drawable ic_baseline_photo_camera_24
 drawable ic_baseline_place_24
 drawable ic_baseline_playlist_add_24
+drawable ic_baseline_remove_red_eye_24
+drawable ic_baseline_reply_24
 drawable ic_baseline_smartphone_24
+drawable ic_baseline_visibility_off_24
 drawable ic_baseline_vpn_key_24
 drawable ic_fiber_manual_record
 drawable ic_fullscreen_black_24dp
@@ -1894,6 +1960,7 @@ drawable ic_replay_black_24dp
 drawable ic_share_white_24dp
 drawable ic_shuffle
 drawable illustration
+drawable loginbackground
 drawable loginpic
 drawable main_layout_bg
 drawable material_ic_calendar_black_24dp
@@ -1912,6 +1979,38 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable mx_back
+drawable mx_backward_icon
+drawable mx_bottom_bg
+drawable mx_bottom_progress
+drawable mx_brightness_icon
+drawable mx_click_error_selector
+drawable mx_click_pause_selector
+drawable mx_click_play_selector
+drawable mx_click_quit_tiny_selector
+drawable mx_dialog_progress
+drawable mx_dialog_progress_bg
+drawable mx_enlarge
+drawable mx_error_normal
+drawable mx_error_pressed
+drawable mx_forward_icon
+drawable mx_loading
+drawable mx_loading_bg
+drawable mx_pause_normal
+drawable mx_pause_pressed
+drawable mx_play_normal
+drawable mx_play_pressed
+drawable mx_quit_tiny_normal
+drawable mx_quit_tiny_pressed
+drawable mx_seek_progress
+drawable mx_seek_thumb
+drawable mx_seek_thumb_normal
+drawable mx_seek_thumb_pressed
+drawable mx_shrink
+drawable mx_title_bg
+drawable mx_volume_icon
+drawable mx_volume_no
+drawable mx_volume_progress_bg
 drawable navigation_empty_icon
 drawable noimageprofile
 drawable notification_action_background
@@ -2047,6 +2146,7 @@ id both
 id bottom
 id bottom_to_top
 id bounce
+id brightness_progressbar
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -2141,6 +2241,9 @@ id dragUp
 id drawer
 id dropdown_menu
 id dumb
+id duration_image_tip
+id duration_ll_time_tip
+id duration_progressbar
 id dynamic
 id easeIn
 id easeInOut
@@ -2205,7 +2308,6 @@ id genderupdate
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
-id go
 id gone
 id graph
 id graph_wrap
@@ -2255,7 +2357,6 @@ id linearLayoutRetry
 id listMode
 id list_item
 id login
-id logintext
 id logout
 id male
 id masked
@@ -2292,6 +2393,26 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id mx_back
+id mx_bottom_progress
+id mx_cache
+id mx_current_time
+id mx_fullscreen
+id mx_fullscreen_id
+id mx_layout_bottom
+id mx_layout_top
+id mx_loading
+id mx_mobile_brightness_img
+id mx_progress
+id mx_quit_tiny
+id mx_start
+id mx_surface_container
+id mx_thumb
+id mx_tiny_screen_id
+id mx_title
+id mx_total_time
+id mx_volume_icon
+id mx_volume_img
 id my
 id myrequest
 id name
@@ -2480,6 +2601,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_current
+id tv_duration
 id txtCurrentDuration
 id txtCurrentMusic
 id txtDuration
@@ -2499,12 +2622,14 @@ id uploadvideobutton
 id urdu
 id useLogo
 id video
+id video_current
 id video_decoder_gl_surface_view
+id video_duration
 id videoplayer
 id view_offset_helper
 id view_stub
 id visible
-id welcome
+id volume_progressbar
 id when_playing
 id wide
 id withText
@@ -2614,7 +2739,9 @@ layout exo_player_control_view
 layout exo_player_view
 layout exo_simple_player_view
 layout exo_track_selection_dialog
-layout fragment_notalkfragment
+layout fragment_no_favorites
+layout fragment_no_personal_talks
+layout fragment_no_requests
 layout headerofnav
 layout layout_for_categories
 layout layout_for_mytalks
@@ -2653,6 +2780,13 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout mx_mobile_brightness_dialog
+layout mx_mobile_volume_dialog
+layout mx_progress_dialog
+layout mx_tv_progress_dialog
+layout mx_tv_volume_dialog
+layout mx_video_layout_mobile
+layout mx_video_layout_tv
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2756,6 +2890,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string default_time_text
 string default_web_client_id
 string error_icon_content_description
 string exo_controls_fastforward_description
@@ -2812,6 +2947,7 @@ string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string ijkplayer_dummy
 string item_view_role_description
 string material_slider_range_end
 string material_slider_range_start
@@ -2850,7 +2986,9 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string mx_img_content_dec
 string next_button_description
+string no_url
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2864,6 +3002,11 @@ string search_menu_title
 string share
 string status_bar_notification_info_overflow
 string text_test
+string tips_not_net
+string tips_not_network_ok
+string tips_not_wifi
+string tips_not_wifi_cancel
+string tips_not_wifi_confirm
 string title_retry
 string track_number
 style AlertDialog_AppCompat
@@ -3585,6 +3728,9 @@ style Widget_MaterialProgressBar_ProgressBar_NoPadding
 style Widget_MaterialProgressBar_ProgressBar_Small
 style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
 style Widget_Support_CoordinatorLayout
+style mx_popup_toast_anim
+style mx_style_dialog_progress
+style mx_vertical_progressBar
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -3677,6 +3823,7 @@ styleable MotionHelper onHide onShow
 styleable MotionLayout applyMotionScene currentState layoutDescription motionDebug motionProgress showPaths
 styleable MotionScene defaultDuration layoutDuringTransition
 styleable MotionTelltales telltales_tailColor telltales_tailScale telltales_velocityMode
+styleable MxVideoPlayer progress_drawable showBottomProgress title_size
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor menu
 styleable OnClick clickAction targetId
 styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp touchAnchorId touchAnchorSide touchRegionId

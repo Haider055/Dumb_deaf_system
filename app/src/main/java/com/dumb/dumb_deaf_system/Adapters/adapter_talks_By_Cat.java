@@ -60,6 +60,8 @@ public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_
         final String[] urdu_description = new String[1];
         final String[] title = new String[1];
 
+
+
         dbhandler dbhandlers=new dbhandler(context);
         String duplicate=dbhandlers.checkforduplicateincart(list.get(position).getId());
         dbhandlers.close();
@@ -111,10 +113,14 @@ public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_
                 }
             }
         });
-        
+
+
         holder.haeding.setText(list.get(position).getTitle());
         holder.detail.setText(list.get(position).getDescription());
 
+        if (list.get(position).getDescription().length()>40){
+            holder.detail.setText(list.get(position).getDescription().substring(0,40)+"...");
+        }
     }
 
     @Override

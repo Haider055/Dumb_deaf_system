@@ -35,14 +35,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.dumb.dumb_deaf_system.Adapters.AdapterCategories;
 import com.dumb.dumb_deaf_system.Network.RetrofitClass;
-import com.dumb.dumb_deaf_system.Network.apis;
+import com.dumb.dumb_deaf_system.authentications.Loginpage;
+import com.dumb.dumb_deaf_system.favorites.myfavourites;
 import com.dumb.dumb_deaf_system.models.modelcategories;
+import com.dumb.dumb_deaf_system.profile.profile;
+import com.dumb.dumb_deaf_system.talk.my_requests;
+import com.dumb.dumb_deaf_system.talk.mytalks;
+import com.dumb.dumb_deaf_system.talk.requesttalk;
+import com.dumb.dumb_deaf_system.talk.talks;
 import com.google.android.material.navigation.NavigationView;
-import com.squareup.picasso.NetworkPolicy;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,9 +54,6 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class MainActivity extends AppCompatActivity implements AdapterCategories.oncategoryclick, NavigationView.OnNavigationItemSelectedListener {
 
@@ -65,10 +65,10 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
     RecyclerView reccategory;
     List<modelcategories> list;
     String notification_count="";
-    AdapterCategories holdercategories;
-    TextView nameinheader;
 
     String CHannel_ID = "notify";
+    AdapterCategories holdercategories;
+    TextView nameinheader;
     CircleImageView imageInHeader;
     CardView cardView;
 
@@ -105,6 +105,15 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
         list=new ArrayList<>();
 
         searchView=findViewById(R.id.searchView);
+
+
+        searchView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                searchView.setIconified(true);
+                searchView.onActionViewExpanded();
+            }
+        });
 
         Window window =getWindow();
 
@@ -261,12 +270,14 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
         if (shared.getString("loginstatus","false").equals("true")){
 
-            Intent intent=new Intent(MainActivity.this,talks.class);
+            Intent intent=new Intent(MainActivity.this, talks.class);
             intent.putExtra("id",id);
             intent.putExtra("category",name);
             startActivity(intent);
         }
         else {
+
+
             builderlogin = new AlertDialog.Builder(this);
             View viewlogin = LayoutInflater.from(this).inflate(R.layout.popupforlogin, null);
             builderlogin.setView(viewlogin);
@@ -278,7 +289,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
             login.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(MainActivity.this,Loginpage.class));
+                    startActivity(new Intent(MainActivity.this, Loginpage.class));
                 }
             });
 
@@ -290,7 +301,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
         switch (item.getItemId()){
             case R.id.nav_profile:
                 if (shared.getString("loginstatus","false").equals("true")){
-                startActivity(new Intent(MainActivity.this,profile.class));
+                startActivity(new Intent(MainActivity.this, profile.class));
                 drawerLayout.closeDrawer(Gravity.LEFT);
                 }
                 else {
@@ -312,7 +323,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
             case R.id.add_talk:
                 if (shared.getString("loginstatus","false").equals("true")){
-                    startActivity(new Intent(MainActivity.this,requesttalk.class));
+                    startActivity(new Intent(MainActivity.this, requesttalk.class));
                     drawerLayout.closeDrawer(Gravity.LEFT);
                 }
                 else {
@@ -321,7 +332,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                 break;
             case R.id.my:
                 if (shared.getString("loginstatus","false").equals("true")){
-                    startActivity(new Intent(MainActivity.this,mytalks.class));
+                    startActivity(new Intent(MainActivity.this, mytalks.class));
                     drawerLayout.closeDrawer(Gravity.LEFT);
                 }
                 else {
@@ -333,7 +344,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                 break;
             case R.id.myrequest:
                 if (shared.getString("loginstatus","false").equals("true")){
-                    startActivity(new Intent(MainActivity.this,my_requests.class));
+                    startActivity(new Intent(MainActivity.this, my_requests.class));
                     drawerLayout.closeDrawer(Gravity.LEFT);
                 }
                 else {
@@ -350,7 +361,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
                 }
                 break;
             case R.id.fav:
-                    startActivity(new Intent(MainActivity.this,myfavourites.class));
+                    startActivity(new Intent(MainActivity.this, myfavourites.class));
                     drawerLayout.closeDrawer(Gravity.LEFT);
                 break;
         }

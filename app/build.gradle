@@ -49,13 +49,26 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-storage'
 
+    implementation 'com.google.android.gms:play-services-safetynet:17.0.0'
+
     implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
 
     implementation 'com.mikhaellopez:circularprogressbar:3.0.3'
     implementation 'com.android.support:design:30.0.0'
     implementation 'com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.henryblue.mxvideoplayer:xvideoplayer:1.2.1'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.4'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.11.4'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.11.4'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.11.4'
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.11.4'
+
     implementation 'com.github.jeancsanchez:JcPlayer:2.7.0'
+
     implementation 'com.artjimlop:altex-image-downloader:0.0.4'
 
 

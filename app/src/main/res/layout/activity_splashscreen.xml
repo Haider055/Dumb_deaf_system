@@ -20,21 +20,7 @@
             android:layout_above="@id/text"
             android:layout_width="match_parent"
             android:layout_height="200dp">
-
         </ImageView>
-
-
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_width="wrap_content"
-            android:id="@+id/go"
-            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-            android:backgroundTint="#3177e8"
-            android:layout_margin="32dp"
-            android:layout_height="wrap_content">
-        </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,8 +31,20 @@
             android:id="@+id/text"
             android:textColor="#000000"
             android:textSize="30dp">
-
         </TextView>
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_margin="32dp"
+
+            android:id="@+id/progress"
+            android:layout_below="@id/text"
+            app:mpb_progressStyle="horizontal"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal">
+
+        </me.zhanghai.android.materialprogressbar.MaterialProgressBar>
 
 
     </RelativeLayout>

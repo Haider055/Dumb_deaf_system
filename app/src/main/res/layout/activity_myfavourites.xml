@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".myfavourites">
+    tools:context=".favorites.myfavourites">
 
     <Toolbar
         android:navigationIcon="@drawable/ic_baseline_arrow_back_24"
@@ -19,11 +19,17 @@
         android:layout_height="wrap_content">
     </Toolbar>
 
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
-
+    </LinearLayout>
 </LinearLayout>

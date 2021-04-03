@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,9 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.dumb.dumb_deaf_system.R;
-import com.dumb.dumb_deaf_system.details;
+import com.dumb.dumb_deaf_system.talk.details;
 import com.dumb.dumb_deaf_system.models.model_mytalks;
-import com.dumb.dumb_deaf_system.mytalks;
 
 import java.util.List;
 

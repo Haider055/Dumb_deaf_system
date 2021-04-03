@@ -47,7 +47,6 @@ public class splashscreen extends AppCompatActivity {
 // finally change the color
         window.setStatusBarColor(ContextCompat.getColor(this,R.color.black));
 
-        findViewById(R.id.go).setVisibility(View.INVISIBLE);
 //                .setOnClickListener(new View.OnClickListener() {
 //                    @Override
 //                    public void onClick(View v) {

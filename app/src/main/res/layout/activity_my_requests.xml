@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:id="@+id/pullToRefresh"
     android:layout_height="match_parent"
-    tools:context=".my_requests">
+    tools:context=".talk.my_requests">
 
 
 
@@ -26,12 +26,20 @@
 
         </androidx.appcompat.widget.Toolbar>
 
+        <LinearLayout
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
         </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
     </LinearLayout>
 
 

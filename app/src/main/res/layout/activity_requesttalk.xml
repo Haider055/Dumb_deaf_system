@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".requesttalk">
+    tools:context=".talk.requesttalk">
 
     <androidx.appcompat.widget.Toolbar
         app:title="Request"
@@ -35,6 +35,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <LinearLayout
             android:layout_margin="8dp"
             android:orientation="vertical"
@@ -71,7 +74,7 @@
             <RadioGroup
                 android:id="@+id/radios"
                 android:gravity="center"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <RadioButton
@@ -87,14 +90,6 @@
                     android:text="Image" />
 
             </RadioGroup>
-
-<!--            <androidx.core.widget.ContentLoadingProgressBar-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_margin="8dp"-->
-<!--                android:id="@+id/progress"-->
-<!--                android:layout_height="wrap_content">-->
-
-<!--            </androidx.core.widget.ContentLoadingProgressBar>-->
 
             <LinearLayout
                 android:weightSum="2"
@@ -162,7 +157,7 @@
             <RadioGroup
                 android:id="@+id/radio"
                 android:gravity="center"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <RadioButton
@@ -204,7 +199,7 @@
             </me.zhanghai.android.materialprogressbar.MaterialProgressBar>
 
         </LinearLayout>
-
+        </androidx.core.widget.NestedScrollView>
 
     </androidx.cardview.widget.CardView>
 

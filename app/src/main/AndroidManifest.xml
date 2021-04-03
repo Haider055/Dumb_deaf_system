@@ -64,33 +64,33 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".otp_screen" />
+        <activity android:name=".authentications.otp_screen" />
         <activity
-            android:name=".myfavourites"
+            android:name=".favorites.myfavourites"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".my_requests"
+            android:name=".talk.my_requests"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".mytalks"
+            android:name=".talk.mytalks"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".requesttalk"
+            android:name=".talk.requesttalk"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".profile"
+            android:name=".profile.profile"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".talks"
+            android:name=".talk.talks"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".details"
+            android:name=".talk.details"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".signup"
+            android:name=".authentications.signup"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".Loginpage"
+            android:name=".authentications.Loginpage"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".MainActivity"

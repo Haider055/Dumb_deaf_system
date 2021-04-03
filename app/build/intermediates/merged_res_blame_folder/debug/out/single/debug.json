@@ -8,32 +8,12 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/dialogforimage.xml"
     },
     {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_download_app_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_download_app_24.xml"
+    },
+    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_box_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_check_box_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforlogin.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforlogin.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_otp_screen.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_otp_screen.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/font_abhaya_libre.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/font/abhaya_libre.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_perm_identity_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_local_phone_24.xml.flat",
@@ -44,48 +24,28 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_image_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_headerofnav.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/headerofnav.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_disable_wifi_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_disable_wifi_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layoutfortalks.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layoutfortalks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_myfav.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myfav.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_vpn_key_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_talks.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_talks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xhdpi_loginbackground.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xhdpi/loginbackground.jpeg"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_illustration.jpg.flat",
@@ -96,20 +56,8 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gif.gif.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gif.gif"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_myrequests.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myrequests.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_home_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_home_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_outline_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforaddressupdate.xml.flat",
@@ -120,20 +68,8 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_lock_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_login_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_login_24.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_noimageprofile.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/noimageprofile.png"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -152,20 +88,12 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_smartphone_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_test.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_test.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforgenderupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforgenderupdate.xml"
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
@@ -180,8 +108,148 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_gender_24.xml"
     },
     {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml"
+    },
+    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gradient.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_for_categories.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_categories.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_splashscreen.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/splashscreen.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforpasswordupdate.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforpasswordupdate.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_backgroundoflogin.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/backgroundoflogin.jpeg"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_details.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_details.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_loginpage.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_loginpage.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_favorites.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_favorites.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_myfavourites.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_myfavourites.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_box_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_check_box_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforlogin.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforlogin.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_otp_screen.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_otp_screen.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-mdpi_loginbackground.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-mdpi/loginbackground.jpeg"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/font_abhaya_libre.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/font/abhaya_libre.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_perm_identity_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_headerofnav.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/headerofnav.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_vpn_key_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gif.gif.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gif.gif"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_myrequests.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myrequests.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_backgroundoftoogle.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/backgroundoftoogle.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_noimageprofile.png.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/noimageprofile.png"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_test.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforgenderupdate.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforgenderupdate.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_create_24.xml.flat",
@@ -196,12 +264,8 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_delete_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_for_categories.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_categories.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gradient.xml"
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_visibility_off_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_edit_24.xml.flat",
@@ -220,24 +284,12 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/loginpic.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_splashscreen.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/splashscreen.png"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforpasswordupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforpasswordupdate.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_splashscreen.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_splashscreen.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_search_background.xml.flat",
@@ -256,16 +308,16 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_signup.xml"
     },
     {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_personal_talks.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_personal_talks.xml"
+    },
+    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_my_requests.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_my_requests.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/xml/network_security_config.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_details.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_details.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat",
@@ -276,8 +328,16 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_24.xml"
     },
     {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xxhdpi_loginbackground.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xxhdpi/loginbackground.jpeg"
+    },
+    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_location_alt_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_reply_24.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_reply_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_border_24.xml.flat",
@@ -288,20 +348,16 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_requesttalk.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_loginpage.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_loginpage.xml"
-    },
-    {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_email_24.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_requests.xml.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_requests.xml"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforphoneupdate.xml.flat",
@@ -312,20 +368,20 @@
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_mytalks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_myfavourites.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_myfavourites.xml"
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_loginbackground.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xxxhdpi/loginbackground.jpeg"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupfortypeupdate.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupfortypeupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_notalkfragment.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_notalkfragment.xml"
-    },
-    {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/font_abeezee.xml.flat",
         "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/font/abeezee.xml"
+    },
+    {
+        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-hdpi_loginbackground.jpeg.flat",
+        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-hdpi/loginbackground.jpeg"
     },
     {
         "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",

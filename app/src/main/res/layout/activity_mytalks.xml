@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:id="@+id/swipe"
     android:layout_height="match_parent"
-    tools:context=".mytalks">
+    tools:context=".talk.mytalks">
 
     <LinearLayout
         android:orientation="vertical"
@@ -24,12 +24,18 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+        <LinearLayout
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
-
+        </LinearLayout>
     </LinearLayout>
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

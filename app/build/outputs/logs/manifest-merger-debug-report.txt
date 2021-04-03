@@ -26,12 +26,20 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/haider/.gra
 MERGED from [com.github.adhishlal:gifloader:1.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d13d0edc7a6ae8a3c3f33350d9c6f4f3/jetified-gifloader-1.1/AndroidManifest.xml:2:1-17:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /home/haider/.gradle/caches/transforms-2/files-2.1/67fdb1b289b596a05d930dc1bf921d99/jetified-library-1.6.1/AndroidManifest.xml:6:1-15:12
 MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] /home/haider/.gradle/caches/transforms-2/files-2.1/c4ea8c0e49dccbec8ededc7b6dcc748e/jetified-MagicalExoPlayer-1.0.16/AndroidManifest.xml:2:1-13:12
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:2:1-21:12
 MERGED from [com.artjimlop:altex-image-downloader:0.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/28462ee010259a92a51e0186cb8dc558/jetified-altex-image-downloader-0.0.4/AndroidManifest.xml:2:1-14:12
+MERGED from [com.henryblue.ijkplayerlibrary:ijkplayer-java:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/b3fdf081f6e9265b048ecb78e9627aa5/jetified-ijkplayer-java-1.0.1/AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/haider/.gradle/caches/transforms-2/files-2.1/4c7e36aac35272fb5c5c7e51ac3c9317/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d895dadeec8360211000d269c2bd483a/jetified-firebase-storage-19.2.1/AndroidManifest.xml:15:1-39:12
 MERGED from [com.mikhaellopez:circularprogressbar:3.0.3] /home/haider/.gradle/caches/transforms-2/files-2.1/f6eae8ce659264cbb98757c931d87a06/jetified-circularprogressbar-3.0.3/AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/1bceb6868ff1adaa052b0bd1f7e1f54d/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.browser:browser:1.3.0] /home/haider/.gradle/caches/transforms-2/files-2.1/63fa3c8173b874ff58608a402533230b/browser-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/9caf82576b18fb31d96f7962fe6d82d5/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/91af00a0d0594750f4fe174efc6f397a/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
@@ -54,6 +62,7 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/haider/.g
 MERGED from [androidx.transition:transition:1.2.0] /home/haider/.gradle/caches/transforms-2/files-2.1/f42eca6397eace9ffc5ef81cd7c9ae9c/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/49be27031473e1ed5a91141358abd022/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/e8ddf3fc73c055632c39e11cb8f30f2f/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/6e7a69260ca194fff447d96a5553479e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/658ffe21531da1522d55ef514a43fa13/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/be9e837114eef81676b11bc65208724f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -62,9 +71,6 @@ MERGED from [androidx.customview:customview:1.0.0] /home/haider/.gradle/caches/t
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/7b516a1563550db14c5379b21bfada28/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/1ce89750bfde251f46c0081c1771fede/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d15b8ad44fc5f016fd524aa4c78bc3ad/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] /home/haider/.gradle/caches/transforms-2/files-2.1/390cf51aa60060bd0d3cd94108add78e/core-1.3.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/e535dbd4167a8ba35f4e974ea7634e74/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/f7062f4a1afb5b26f2bacc2844ccb55f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -72,10 +78,6 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/h
 MERGED from [com.google.firebase:firebase-components:16.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/87ca280d1466f143a1a063b673d968a4/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/6704f6776cc3dd034eb1e637df21f7d5/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d1a369615923d5a6743f6bcb49515463/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/917c3a48d282999832e9286d94a71188/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/8de95f5f8c3b18289de245371bc9f02b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/9fe5909e24415adb6c98fdf26eb56883/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -126,6 +128,8 @@ ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/Andr
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:13:5-79
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d895dadeec8360211000d269c2bd483a/jetified-firebase-storage-19.2.1/AndroidManifest.xml:26:5-79
@@ -188,8 +192,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/haider/.gra
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/cb1130ce5bc090cd147d10a84daaaf1b/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [com.github.adhishlal:gifloader:1.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d13d0edc7a6ae8a3c3f33350d9c6f4f3/jetified-gifloader-1.1/AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.adhishlal:gifloader:1.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d13d0edc7a6ae8a3c3f33350d9c6f4f3/jetified-gifloader-1.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:16:5-19:19
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:16:5-19:19
 MERGED from [com.artjimlop:altex-image-downloader:0.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/28462ee010259a92a51e0186cb8dc558/jetified-altex-image-downloader-0.0.4/AndroidManifest.xml:11:5-12:19
 MERGED from [com.artjimlop:altex-image-downloader:0.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/28462ee010259a92a51e0186cb8dc558/jetified-altex-image-downloader-0.0.4/AndroidManifest.xml:11:5-12:19
+MERGED from [com.henryblue.ijkplayerlibrary:ijkplayer-java:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/b3fdf081f6e9265b048ecb78e9627aa5/jetified-ijkplayer-java-1.0.1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.henryblue.ijkplayerlibrary:ijkplayer-java:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/b3fdf081f6e9265b048ecb78e9627aa5/jetified-ijkplayer-java-1.0.1/AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d895dadeec8360211000d269c2bd483a/jetified-firebase-storage-19.2.1/AndroidManifest.xml:29:5-37:19
@@ -236,64 +244,64 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/haide
 		ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/046f623e38e81f25da6331ca54ba001b/jetified-JcPlayer-2.7.0/AndroidManifest.xml:17:9-38
 	android:usesCleartextTraffic
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:55:9-44
-activity#com.dumb.dumb_deaf_system.otp_screen
-ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:67:9-48
+activity#com.dumb.dumb_deaf_system.authentications.otp_screen
+ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:67:9-64
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:67:19-45
-activity#com.dumb.dumb_deaf_system.myfavourites
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:67:19-61
+activity#com.dumb.dumb_deaf_system.favorites.myfavourites
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:68:9-70:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:70:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:69:13-41
-activity#com.dumb.dumb_deaf_system.my_requests
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:69:13-51
+activity#com.dumb.dumb_deaf_system.talk.my_requests
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:71:9-73:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:73:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:72:13-40
-activity#com.dumb.dumb_deaf_system.mytalks
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:72:13-45
+activity#com.dumb.dumb_deaf_system.talk.mytalks
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:74:9-76:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:76:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:75:13-36
-activity#com.dumb.dumb_deaf_system.requesttalk
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:75:13-41
+activity#com.dumb.dumb_deaf_system.talk.requesttalk
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:77:9-79:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:79:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:78:13-40
-activity#com.dumb.dumb_deaf_system.profile
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:78:13-45
+activity#com.dumb.dumb_deaf_system.profile.profile
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:80:9-82:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:82:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:81:13-36
-activity#com.dumb.dumb_deaf_system.talks
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:81:13-44
+activity#com.dumb.dumb_deaf_system.talk.talks
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:83:9-85:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:85:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:84:13-34
-activity#com.dumb.dumb_deaf_system.details
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:84:13-39
+activity#com.dumb.dumb_deaf_system.talk.details
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:86:9-88:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:88:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:87:13-36
-activity#com.dumb.dumb_deaf_system.signup
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:87:13-41
+activity#com.dumb.dumb_deaf_system.authentications.signup
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:89:9-91:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:91:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:90:13-35
-activity#com.dumb.dumb_deaf_system.Loginpage
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:90:13-51
+activity#com.dumb.dumb_deaf_system.authentications.Loginpage
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:92:9-94:81
 	android:theme
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:94:13-78
 	android:name
-		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:93:13-38
+		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:93:13-54
 activity#com.dumb.dumb_deaf_system.MainActivity
 ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:95:9-97:81
 	android:theme
@@ -348,8 +356,12 @@ MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /home/haider
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] /home/haider/.gradle/caches/transforms-2/files-2.1/67fdb1b289b596a05d930dc1bf921d99/jetified-library-1.6.1/AndroidManifest.xml:11:5-13:41
 MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] /home/haider/.gradle/caches/transforms-2/files-2.1/c4ea8c0e49dccbec8ededc7b6dcc748e/jetified-MagicalExoPlayer-1.0.16/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16] /home/haider/.gradle/caches/transforms-2/files-2.1/c4ea8c0e49dccbec8ededc7b6dcc748e/jetified-MagicalExoPlayer-1.0.16/AndroidManifest.xml:7:5-9:41
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:8:5-11:104
+MERGED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:8:5-11:104
 MERGED from [com.artjimlop:altex-image-downloader:0.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/28462ee010259a92a51e0186cb8dc558/jetified-altex-image-downloader-0.0.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.artjimlop:altex-image-downloader:0.0.4] /home/haider/.gradle/caches/transforms-2/files-2.1/28462ee010259a92a51e0186cb8dc558/jetified-altex-image-downloader-0.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.henryblue.ijkplayerlibrary:ijkplayer-java:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/b3fdf081f6e9265b048ecb78e9627aa5/jetified-ijkplayer-java-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.henryblue.ijkplayerlibrary:ijkplayer-java:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/b3fdf081f6e9265b048ecb78e9627aa5/jetified-ijkplayer-java-1.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/haider/.gradle/caches/transforms-2/files-2.1/4c7e36aac35272fb5c5c7e51ac3c9317/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/haider/.gradle/caches/transforms-2/files-2.1/4c7e36aac35272fb5c5c7e51ac3c9317/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:21:5-44
@@ -360,6 +372,18 @@ MERGED from [com.mikhaellopez:circularprogressbar:3.0.3] /home/haider/.gradle/ca
 MERGED from [com.mikhaellopez:circularprogressbar:3.0.3] /home/haider/.gradle/caches/transforms-2/files-2.1/f6eae8ce659264cbb98757c931d87a06/jetified-circularprogressbar-3.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/1bceb6868ff1adaa052b0bd1f7e1f54d/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/1bceb6868ff1adaa052b0bd1f7e1f54d/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.3.0] /home/haider/.gradle/caches/transforms-2/files-2.1/63fa3c8173b874ff58608a402533230b/browser-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.3.0] /home/haider/.gradle/caches/transforms-2/files-2.1/63fa3c8173b874ff58608a402533230b/browser-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/9caf82576b18fb31d96f7962fe6d82d5/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
@@ -404,6 +428,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haider
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/49be27031473e1ed5a91141358abd022/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/e8ddf3fc73c055632c39e11cb8f30f2f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/e8ddf3fc73c055632c39e11cb8f30f2f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/6e7a69260ca194fff447d96a5553479e/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/6e7a69260ca194fff447d96a5553479e/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/658ffe21531da1522d55ef514a43fa13/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -420,12 +446,6 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/haide
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/1ce89750bfde251f46c0081c1771fede/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d15b8ad44fc5f016fd524aa4c78bc3ad/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d15b8ad44fc5f016fd524aa4c78bc3ad/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/f10efa297982ccd96c59a7aed62b0db5/jetified-exoplayer-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/feaf4ae3258533503422f164874e0a1e/jetified-exoplayer-ui-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.1] /home/haider/.gradle/caches/transforms-2/files-2.1/f1c839087f3a1b5f3ba3c8e4ccef7129/media-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] /home/haider/.gradle/caches/transforms-2/files-2.1/390cf51aa60060bd0d3cd94108add78e/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] /home/haider/.gradle/caches/transforms-2/files-2.1/390cf51aa60060bd0d3cd94108add78e/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/e535dbd4167a8ba35f4e974ea7634e74/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -440,14 +460,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haider/.gradle/cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/6704f6776cc3dd034eb1e637df21f7d5/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d1a369615923d5a6743f6bcb49515463/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/haider/.gradle/caches/transforms-2/files-2.1/d1a369615923d5a6743f6bcb49515463/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/561238b5a8ad8e1311408cc16f5eb70e/jetified-exoplayer-dash-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/1f06d8454db693f916592dca1a945905/jetified-exoplayer-hls-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/73b3d20fff8e227062a6aeae2c5863d8/jetified-exoplayer-smoothstreaming-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.4] /home/haider/.gradle/caches/transforms-2/files-2.1/7e8673cb26e65e64f3395bc12a8872e7/jetified-exoplayer-core-2.11.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/917c3a48d282999832e9286d94a71188/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/917c3a48d282999832e9286d94a71188/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/8de95f5f8c3b18289de245371bc9f02b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
@@ -468,6 +480,8 @@ MERGED from [com.daimajia.androidanimations:library:2.3] /home/haider/.gradle/ca
 MERGED from [com.daimajia.androidanimations:library:2.3] /home/haider/.gradle/caches/transforms-2/files-2.1/82ac80af07e39bd09897ad699ec38b33/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
 INJECTED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
 INJECTED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:11:9-101
 	android:targetSdkVersion
 		INJECTED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
 		ADDED from /home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
@@ -512,6 +526,10 @@ ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/
 		ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/046f623e38e81f25da6331ca54ba001b/jetified-JcPlayer-2.7.0/AndroidManifest.xml:23:13-37
 	android:name
 		ADDED from [com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/046f623e38e81f25da6331ca54ba001b/jetified-JcPlayer-2.7.0/AndroidManifest.xml:21:13-103
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from [com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/0aec53234ccfc5b11328a90df3e32db3/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:14:22-70
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/87fddb95effd391005dd9334e7091c58/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
