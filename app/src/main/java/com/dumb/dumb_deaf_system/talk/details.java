@@ -53,9 +53,14 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,6 +76,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
     Toolbar toolbar;
     Button share,download;
 
+    URL url;
     List<model_Talksby_Cat> list;
     adapter_talks_By_Cat adapter;
 
@@ -123,6 +129,8 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         urdu=getIntent().getStringExtra("urdu");
         title=getIntent().getStringExtra("title");
         imageView = findViewById(R.id.image);
+
+
 
         player = findViewById(R.id.videoplayer);
         mediaController=new MediaController(this);
@@ -200,7 +208,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
                         haveStoragePermission();
                     }
                 }
-
             }
         });
             //gif
@@ -291,6 +298,8 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         showrelated(category);
 
     }
+
+
     private void showrelated(String cat) {
 
         rec.hasFixedSize();
@@ -414,7 +423,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             waIntent.setPackage(pack);
             waIntent.putExtra(android.content.Intent.EXTRA_STREAM, imageUri);
             waIntent.putExtra(Intent.EXTRA_TEXT, pack);
-           startActivity(Intent.createChooser(waIntent, "Share with"));
+            startActivity(Intent.createChooser(waIntent, "Share with"));
         } catch (Exception e) {
             Log.e("Error on sharing", e + " ");
 //            Toast.makeText(getApplicationContext(), "App not Installed", Toast.LENGTH_SHORT).show();

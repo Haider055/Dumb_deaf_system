@@ -47,6 +47,56 @@
                         </ImageView>
                     </androidx.cardview.widget.CardView>
 
+                        <TextView
+                            android:text="Heading"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/abeezee"
+                            android:textStyle="bold"
+                            android:id="@+id/head"
+                            android:textSize="24dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </TextView>
+
+                        <TextView
+                            android:text="Heading"
+                            android:id="@+id/detail"
+                            android:textColor="#323233"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                        <TextView
+                            android:text="urdu"
+                            android:id="@+id/urdu"
+                            android:textColor="#323233"
+                            android:textSize="16dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                        <View
+                            android:background="#9A9A9A"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp">
+                        </View>
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:layout_width="match_parent"
+            android:id="@+id/audioplayer"
+            android:layout_height="wrap_content">
+
+        </com.example.jean.jcplayer.view.JcPlayerView>
+
 
                     <LinearLayout
                         android:orientation="horizontal"
@@ -76,60 +126,13 @@
                         </Button>
 
                     </LinearLayout>
-                        <TextView
-                            android:text="Heading"
-                            android:textColor="#000000"
-                            android:fontFamily="@font/abeezee"
-                            android:textStyle="bold"
-                            android:id="@+id/head"
-                            android:textSize="24dp"
-                            android:layout_marginLeft="16dp"
-                            android:layout_marginRight="16dp"
-                            android:layout_marginTop="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                        </TextView>
-
-                        <TextView
-                            android:text="Heading"
-                            android:id="@+id/detail"
-                            android:textColor="#323233"
-                            android:textSize="16dp"
-                            android:layout_marginLeft="16dp"
-                            android:layout_marginRight="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                        </TextView>
-                        <TextView
-                            android:text="urdu"
-                            android:id="@+id/urdu"
-                            android:textColor="#323233"
-                            android:textSize="16dp"
-                            android:layout_marginLeft="16dp"
-                            android:layout_marginRight="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                        </TextView>
-                        <View
-                            android:background="#9A9A9A"
-                            android:layout_margin="8dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp">
-                        </View>
-
-        <com.example.jean.jcplayer.view.JcPlayerView
-            android:layout_width="match_parent"
-            android:id="@+id/audioplayer"
-            android:layout_height="wrap_content">
-
-        </com.example.jean.jcplayer.view.JcPlayerView>
 
 
                         <View
                             android:background="@color/cardview_dark_background"
                             android:layout_margin="8dp"
                             android:layout_width="match_parent"
-                            android:layout_height="1dp">
+                            android:layout_height="0.5dp">
                         </View>
 
                         <TextView

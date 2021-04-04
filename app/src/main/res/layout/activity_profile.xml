@@ -80,6 +80,7 @@
                     android:text="Name"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
+                    android:textStyle="bold"
                     android:layout_marginLeft="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -146,14 +147,17 @@
 
                 <View
                     android:background="#f8f4f3"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="10dp">
+                    android:layout_height="1dp">
                 </View>
                 <TextView
                     android:textColor="#000000"
                     android:text="Address"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
+                    android:textStyle="bold"
                     android:layout_marginLeft="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -215,13 +219,16 @@
                 </LinearLayout>
 
                 <View
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
                     android:background="#f8f4f3"
                     android:layout_width="match_parent"
-                    android:layout_height="10dp">
+                    android:layout_height="1dp">
                 </View>
                 <TextView
                     android:textColor="#000000"
                     android:text="Phone"
+                    android:textStyle="bold"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
                     android:layout_marginLeft="16dp"
@@ -285,15 +292,18 @@
 
 
                 <View
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
                     android:background="#f8f4f3"
                     android:layout_width="match_parent"
-                    android:layout_height="10dp">
+                    android:layout_height="1dp">
                 </View>
                 <TextView
                     android:textColor="#000000"
                     android:text="Password"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
+                    android:textStyle="bold"
                     android:layout_marginLeft="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -342,13 +352,16 @@
 
 
                 <View
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
                     android:background="#f8f4f3"
                     android:layout_width="match_parent"
-                    android:layout_height="10dp">
+                    android:layout_height="1dp">
                 </View>
                 <TextView
                     android:textColor="#000000"
                     android:text="Gender"
+                    android:textStyle="bold"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
                     android:layout_marginLeft="16dp"
@@ -400,9 +413,11 @@
 
 
                 <View
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
                     android:background="#f8f4f3"
                     android:layout_width="match_parent"
-                    android:layout_height="10dp">
+                    android:layout_height="1dp">
                 </View>
 
                 <TextView
@@ -410,6 +425,7 @@
                     android:text="Disability type"
                     android:fontFamily="@font/abhaya_libre"
                     android:textSize="16dp"
+                    android:textStyle="bold"
                     android:layout_marginLeft="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">

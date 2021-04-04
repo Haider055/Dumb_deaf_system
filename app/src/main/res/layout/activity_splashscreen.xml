@@ -36,14 +36,14 @@
         <me.zhanghai.android.materialprogressbar.MaterialProgressBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
             android:indeterminate="true"
-            android:layout_margin="32dp"
-
+            android:layout_alignParentBottom="true"
             android:id="@+id/progress"
-            android:layout_below="@id/text"
+            android:layout_marginBottom="150dp"
             app:mpb_progressStyle="horizontal"
             style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal">
-
         </me.zhanghai.android.materialprogressbar.MaterialProgressBar>
 
 

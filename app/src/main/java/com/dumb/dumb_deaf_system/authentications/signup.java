@@ -190,8 +190,11 @@ public class signup extends AppCompatActivity {
                     Toast.makeText(signup.this, "Name must be of atleast 4 characters", Toast.LENGTH_SHORT).show();
                 if (!confirm_passwordString.equals(passwordString))
                     Toast.makeText(signup.this, "Both passwords not matched", Toast.LENGTH_SHORT).show();
+                if(!emailString.contains("@gmail.com")){
+                    Toast.makeText(signup.this, "Enter a valid email address", Toast.LENGTH_SHORT).show();
+                }
 
-                if (nameString.isEmpty()||emailString.isEmpty()||phoneString.isEmpty()||addressString.isEmpty()||passwordString.isEmpty()||confirm_passwordString.isEmpty()|| !passwordString.equals(confirm_passwordString) || nameString.length()<4 ){}
+                if (nameString.isEmpty()||emailString.isEmpty()||phoneString.isEmpty()||addressString.isEmpty()||passwordString.isEmpty()||confirm_passwordString.isEmpty()|| !passwordString.equals(confirm_passwordString) || nameString.length()<4 || !emailString.contains("@gmail.com")){}
                 else {
 
                     if (genderString.equals("")) {
@@ -225,7 +228,7 @@ public class signup extends AppCompatActivity {
 //                                            startActivity(intent);
 //                                            finish();
 //                                        }
-//
+
 //                                    }
 //                                }
 //                                @Override
@@ -237,7 +240,7 @@ public class signup extends AppCompatActivity {
                                             Intent intent=new Intent(signup.this,otp_screen.class);
                                             intent.putExtra("name",nameString);
                                             intent.putExtra("email",emailString);
-                                            intent.putExtra("phone",phoneString);
+                                            intent.putExtra("phone","+92"+phoneString.substring(1));
                                             intent.putExtra("address",addressString);
                                             intent.putExtra("password",passwordString);
                                             intent.putExtra("image",imageUpdateString);

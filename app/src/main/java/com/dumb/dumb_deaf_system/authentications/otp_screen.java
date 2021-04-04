@@ -92,7 +92,6 @@ public class otp_screen extends AppCompatActivity {
         mcallbacks=new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
             @Override
             public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) {
-                Toast.makeText(otp_screen.this, "yes", Toast.LENGTH_SHORT).show();
 
             }
 
@@ -108,6 +107,7 @@ public class otp_screen extends AppCompatActivity {
 
                 verificationid=s;
                 ResendingToken=forceResendingToken;
+
             }
 
             @Override
