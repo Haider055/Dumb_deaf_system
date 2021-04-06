@@ -195,13 +195,11 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
                         haveStoragePermission();
                     }
                 }
-
                 else {
                     if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(details.this, "Downloading please wait...", Toast.LENGTH_SHORT).show();
-                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
-//                        downloadVideoAndSaveInStorage(details.this,video,"Videos");
-
+//                        AltexImageDownloader.writeToDisk(details.this,video, "Videos");
+                        downloadVideoAndSaveInStorage(details.this,video,"Videos");
 
                     }else {
 
@@ -224,7 +222,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
         voicePlayerView.initAnonPlaylist(jcAudios);
 
-
         voicePlayerView.setJcPlayerManagerListener(new JcPlayerManagerListener() {
             @Override
             public void onPreparedAudio(@NotNull JcStatus jcStatus) {
@@ -238,6 +235,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
                 jcAudios.add(JcAudio.createFromURL("url audio",audio));
                 jcAudios.add(JcAudio.createFromAssets("Asset audio", "audio.mp3"));
                 voicePlayerView.initAnonPlaylist(jcAudios);
+
             }
 
             @Override
@@ -296,9 +294,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
             }
         });
         showrelated(category);
-
     }
-
 
     private void showrelated(String cat) {
 
@@ -389,10 +385,8 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
                         Bitmap myBitmap = BitmapFactory.decodeStream(input);
                         if(myBitmap!=null){
-                            Log.d("work",myBitmap.toString());
-                            sentOnWatsuppImage("",myBitmap);
+                            sentOnWatsuppImage("com.whatsapp",myBitmap);
                         }
-
                     }
                     else {
                         InputStream input = connection.getErrorStream();
@@ -433,7 +427,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
    void sentVideoToWatsupp(Uri uri){
        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
        StrictMode.setVmPolicy(builder.build());
-     Log.d("here","ask");
        File myFile = new File(uri.getPath());
 
        Uri photoURI = FileProvider.getUriForFile(details.this, BuildConfig.APPLICATION_ID + ".provider",myFile);
@@ -451,7 +444,9 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
         String fileName = imageUri.getLastPathSegment();
         String downloadSubpath = downloadSubfolder + fileName;
+
         Uri pathOfFile = getDownloadDestination(downloadSubpath);
+
         DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(video));
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
@@ -461,6 +456,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
         downloadManager.enqueue(request);
         Log.d("path",pathOfFile.toString());
+        sentVideoToWatsupp(pathOfFile);
 
     }
     @NonNull
