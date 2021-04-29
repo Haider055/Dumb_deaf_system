@@ -1815,8 +1815,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
-drawable backgroundoflogin
 drawable backgroundoftoogle
+drawable backlogin
 drawable bg_player_dark
 drawable bg_player_white
 drawable btn_checkbox_checked_mtrl
@@ -1891,7 +1891,6 @@ drawable exo_notification_previous
 drawable exo_notification_rewind
 drawable exo_notification_small_icon
 drawable exo_notification_stop
-drawable gif
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
@@ -1960,7 +1959,6 @@ drawable ic_replay_black_24dp
 drawable ic_share_white_24dp
 drawable ic_shuffle
 drawable illustration
-drawable loginbackground
 drawable loginpic
 drawable main_layout_bg
 drawable material_ic_calendar_black_24dp

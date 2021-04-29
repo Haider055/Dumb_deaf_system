@@ -7,13 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".authentications.Loginpage">
 
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"></LinearLayout>-->
-
 
     <ImageView
-        android:src="@drawable/backgroundoflogin"
+        android:src="@drawable/backlogin"
         android:layout_width="match_parent"
         android:scaleType="fitXY"
         android:alpha="0.9"

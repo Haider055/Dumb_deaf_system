@@ -12,7 +12,7 @@
         </item>
         <item
             android:checkable="true"
-            android:icon="@drawable/ic_baseline_person_pin_24"
+            android:icon="@drawable/ic_baseline_perm_identity_24"
             android:id="@+id/nav_profile"
             android:title="My Profile">
         </item>
@@ -23,7 +23,7 @@
             android:title="Request a Talk">
         </item>
         <item
-            android:icon="@drawable/ic_baseline_perm_identity_24"
+            android:icon="@drawable/ic_baseline_person_pin_24"
             android:id="@+id/my"
             android:checkable="true"
             android:title="Personal Talks">
