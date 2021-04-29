@@ -67,25 +67,30 @@
                             android:id="@+id/detail"
                             android:textColor="#323233"
                             android:textSize="16dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginRight="16dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
                         </TextView>
-                        <TextView
-                            android:text="urdu"
-                            android:id="@+id/urdu"
-                            android:textColor="#323233"
-                            android:textSize="16dp"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginLeft="16dp"
-                            android:layout_marginRight="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                        </TextView>
+
+                    <TextView
+                        android:id="@+id/urdu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:textAlignment="textEnd"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="16dp"
+                        android:text="urdu"
+                        android:layout_gravity="end"
+                        android:textColor="#323233"
+                        android:textSize="16dp"/>
                         <View
                             android:background="#9A9A9A"
-                            android:layout_margin="8dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp">
                         </View>
@@ -93,6 +98,7 @@
         <com.example.jean.jcplayer.view.JcPlayerView
             android:layout_width="match_parent"
             android:id="@+id/audioplayer"
+            android:layout_marginTop="20dp"
             android:layout_height="wrap_content">
 
         </com.example.jean.jcplayer.view.JcPlayerView>
@@ -100,6 +106,9 @@
 
                     <LinearLayout
                         android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
@@ -137,7 +146,7 @@
 
                         <TextView
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="16dp"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="sans-serif"
                             android:textSize="18dp"

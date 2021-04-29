@@ -153,10 +153,10 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         urdu_desc=findViewById(R.id.urdu);
         share=findViewById(R.id.share);
 
-
-        toolbar.setTitle(title);
-        head.setText(title);
-        detail.setText(details);
+//String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
+        toolbar.setTitle(title.substring(0, 1).toUpperCase());
+        head.setText(title.substring(0, 1).toUpperCase());
+        detail.setText(details.substring(0, 1).toUpperCase());
         urdu_desc.setText(urdu);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -274,6 +274,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         if (type.equals("video")){
 
             player.setVideoPath(video);
+            player.seekTo(100);
             player.start();
 
             imageView.setVisibility(View.GONE);

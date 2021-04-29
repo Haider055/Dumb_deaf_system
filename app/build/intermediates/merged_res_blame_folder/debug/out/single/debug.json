@@ -1,390 +1,398 @@
 [
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_place_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_place_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\font_abeezee.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\font\\abeezee.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_dialogforimage.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/dialogforimage.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_download_app_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_download_app_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_local_phone_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_local_phone_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_image_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_image_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_disable_wifi_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_disable_wifi_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\font_abhaya_libre.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\font\\abhaya_libre.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layoutfortalks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layoutfortalks.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupforpasswordupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupforpasswordupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_myfav.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myfav.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-hdpi\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_no_requests.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\fragment_no_requests.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_talks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_talks.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupfortypeupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupfortypeupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xxhdpi_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xxhdpi/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawermenu.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\menu\\drawermenu.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_illustration.jpg.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/illustration.jpg"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupforlogin.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupforlogin.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_playlist_add_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_home_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforaddressupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforaddressupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_create_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_create_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_lock_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_none_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_none_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_login_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_login_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_details.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_details.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_pin_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_pin_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_notifications_none_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_ios_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_smartphone_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_smartphone_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-mdpi\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_requesttalk.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_requesttalk.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_downward_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\gradient.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/xml/provider_paths.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen2.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_splashscreen2.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\font_amaranth_bold.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\font\\amaranth_bold.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_gender_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_gender_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_remove_red_eye_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_noimageprofile.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\noimageprofile.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_add_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_remove_red_eye_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_for_categories.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_categories.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/gradient.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_splashscreen.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/splashscreen.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforpasswordupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforpasswordupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xhdpi_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xhdpi/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_otp_screen.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_otp_screen.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_download_app_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_download_app_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_details.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_details.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_myfav.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\layout_myfav.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-mdpi_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-mdpi/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_gender_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_gender_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_loginpage.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_loginpage.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-xhdpi\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_favorites.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_favorites.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_local_phone_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_local_phone_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_myfavourites.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_myfavourites.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_playlist_add_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_playlist_add_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_box_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_check_box_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforlogin.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforlogin.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_otp_screen.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_otp_screen.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layoutfortalks.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\layoutfortalks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/font_abhaya_libre.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/font/abhaya_libre.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_for_mytalks.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\layout_for_mytalks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_perm_identity_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_location_alt_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_add_location_alt_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_headerofnav.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/headerofnav.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_vpn_key_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_vpn_key_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_for_categories.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\layout_for_categories.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-hdpi_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-hdpi/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_login_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_illustration.jpg.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\illustration.jpg"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\splashscreen.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_vpn_key_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_place_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_place_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_myrequests.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_myrequests.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_requests.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_my_requests.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_backgroundoftoogle.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/backgroundoftoogle.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialogforimage.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\dialogforimage.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_outline_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_myrequests.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\layout_myrequests.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_no_personal_talks.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\fragment_no_personal_talks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_noimageprofile.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/noimageprofile.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_test.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_test.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_headerofnav.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\headerofnav.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforgenderupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforgenderupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_create_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_create_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-xxhdpi\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mytalks.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_mytalks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_visibility_off_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_delete_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_delete_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_disable_wifi_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_disable_wifi_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_edit_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_edit_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_reply_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_reply_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_photo_camera_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loginpage.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_loginpage.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_mytalks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_mytalks.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_downward_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_loginpic.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/loginpic.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-xxxhdpi\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupforphoneupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupforphoneupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_splashscreen.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_splashscreen.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_search_background.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/search_background.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupforgenderupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupforgenderupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/menu_drawermenu.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/menu/drawermenu.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_visibility_off_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_visibility_off_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupfornameupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupfornameupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_person_outline_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_signup.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_signup.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_personal_talks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_personal_talks.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_image_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_image_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_my_requests.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_my_requests.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginpic.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\loginpic.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/xml/network_security_config.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupforaddressupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupforaddressupdate.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_profile.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backlogin.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable-v24\\backlogin.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_person_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgroundoftoogle.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\backgroundoftoogle.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_reply_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_reply_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_location_alt_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_border_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_activity_requesttalk.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/activity_requesttalk.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_person_pin_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_photo_camera_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable_ic_baseline_email_24.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable/ic_baseline_email_24.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_myfavourites.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_myfavourites.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_fragment_no_requests.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/fragment_no_requests.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-v24_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-v24/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_backlogin.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/drawable-xxxhdpi/backlogin.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_background.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\search_background.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupforphoneupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupforphoneupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_layout_for_mytalks.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/layout_for_mytalks.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_no_favorites.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\fragment_no_favorites.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/layout_popupfortypeupdate.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/layout/popupfortypeupdate.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_talks.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\activity_talks.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/font_abeezee.xml.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/font/abeezee.xml"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_smartphone_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_smartphone_24.xml"
     },
     {
-        "merged": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\layout_popupfornameupdate.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\layout\\popupfornameupdate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_box_24.xml.flat",
+        "source": "C:\\Users\\Ali Pracha\\StudioProjects\\Dumb_deaf_system\\app\\src\\main\\res\\drawable\\ic_baseline_check_box_24.xml"
     }
 ]
