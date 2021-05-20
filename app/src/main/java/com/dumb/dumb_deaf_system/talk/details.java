@@ -83,11 +83,9 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
     RecyclerView rec;
     CardView cardView;
 
-
     @Override
     protected void onStart() {
         super.onStart();
-
         player.pause();
     }
 
@@ -147,16 +145,15 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
         window.setStatusBarColor(ContextCompat.getColor(this,R.color.toolcolor));
 
-
         head=findViewById(R.id.head);
         detail=findViewById(R.id.detail);
         urdu_desc=findViewById(R.id.urdu);
         share=findViewById(R.id.share);
 
 //String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
-        toolbar.setTitle(title.substring(0, 1).toUpperCase());
-        head.setText(title.substring(0, 1).toUpperCase());
-        detail.setText(details.substring(0, 1).toUpperCase());
+        toolbar.setTitle(title.substring(0, 1).toUpperCase()+ title.substring(1));
+        head.setText(title.substring(0, 1).toUpperCase()+ title.substring(1));
+        detail.setText(details.substring(0, 1).toUpperCase()+ details.substring(1));
         urdu_desc.setText(urdu);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -167,7 +164,6 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         });
 
         toolbar.setTitle(category);
-
         share.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
@@ -266,10 +262,8 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
 
             @Override
             public void onJcpError(@NotNull Throwable throwable) {
-
             }
         });
-
             //video
         if (type.equals("video")){
 
@@ -458,8 +452,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         downloadManager.enqueue(request);
         Log.d("path",pathOfFile.toString());
         sentVideoToWatsupp(pathOfFile);
-
-    }
+   }
     @NonNull
     public static Uri getDownloadDestination(String downloadSubpath) {
         File picturesFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);

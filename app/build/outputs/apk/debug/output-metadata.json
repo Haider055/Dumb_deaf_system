@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "com.dumb.dumb_deaf_system",
-  "variantName": "processDebugResources",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",

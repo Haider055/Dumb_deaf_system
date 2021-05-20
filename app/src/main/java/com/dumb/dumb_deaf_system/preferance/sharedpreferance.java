@@ -12,6 +12,7 @@ public class sharedpreferance {
     private static final String USER_NAME  = "NAME";
     private static final String USER_EMAIL  = "EMAIL";
     private static final String USER_ADDRESS  = "ADDRESS";
+
     private static final String USER_PHONE  = "PHONE";
     private static final String USER_TYPE  = "TYPE";
     private static final String USER_GENDER  = "GENDER";

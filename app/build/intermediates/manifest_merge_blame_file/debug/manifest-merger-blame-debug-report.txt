@@ -6,374 +6,341 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml
+8-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml
+9-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.SEND_SMS" />
-11-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:6:22-64
+11-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-12-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:7:5-70
-12-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:7:22-67
+12-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:7:5-70
+12-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:7:22-67
 13    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
-13-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:8:5-80
-13-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:8:22-77
+13-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:8:5-80
+13-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:8:22-77
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:9:5-65
-14-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:9:22-62
+14-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:9:5-65
+14-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:10:5-79
-15-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:10:22-76
+15-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:10:5-79
+15-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:10:22-76
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:11:5-79
-16-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:11:22-76
+16-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:11:5-79
+16-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:11:22-76
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-17-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:5-76
-17-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:22-73
+17-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:12:5-76
+17-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:12:22-73
 18    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-18-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:13:5-84
-18-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:13:22-81
+18-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:13:5-84
+18-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:13:22-81
 19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-19-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:5-82
-19-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:14:22-79
+19-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:14:5-82
+19-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:14:22-79
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:15:5-80
-20-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:15:22-77
+20-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:15:5-80
+20-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:15:22-77
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:5-81
-21-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:16:22-78
+21-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:16:5-81
+21-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:16:22-78
 22    <uses-permission android:name="android.permission.WAKE_LOCK" />
-22-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:17:5-68
-22-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:17:22-65
+22-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:17:5-68
+22-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:17:22-65
 23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-23-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:5-76
-23-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:12:22-73
+23-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:12:5-76
+23-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:12:22-73
 24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-24-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:19:5-21:40
-24-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:20:9-65
+24-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:19:5-21:40
+24-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:20:9-65
 25    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-25-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:5-88
-25-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:22-85
+25-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:22:5-88
+25-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:22:22-85
 26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-26-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:15:5-80
-26-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:15:22-77
+26-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:15:5-80
+26-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:15:22-77
 27    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-27-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:24:5-80
-27-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:24:22-77
+27-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:24:5-80
+27-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:24:22-77
 28    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-28-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:5-88
-28-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:22:22-85
+28-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:22:5-88
+28-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:22:22-85
 29    <uses-permission android:name="android.permission.INTERNET" />
-29-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:5-67
-29-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:11:22-64
+29-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:11:5-67
+29-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:11:22-64
 30    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-30-->[com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\e2208f11ec5717494f5334dd540a0194\jetified-xvideoplayer-1.2.1\AndroidManifest.xml:14:5-73
-30-->[com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\e2208f11ec5717494f5334dd540a0194\jetified-xvideoplayer-1.2.1\AndroidManifest.xml:14:22-70
+30-->[com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d131bbbed3c90e781cc1ea863795c5cf/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:14:5-73
+30-->[com.henryblue.mxvideoplayer:xvideoplayer:1.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/d131bbbed3c90e781cc1ea863795c5cf/jetified-xvideoplayer-1.2.1/AndroidManifest.xml:14:22-70
 31
 32    <application
-32-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:27:5-92:19
+32-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:27:5-81:19
 33        android:allowBackup="true"
-33-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:28:9-35
+33-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:28:9-35
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-34-->[androidx.core:core:1.3.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\390cf51aa60060bd0d3cd94108add78e\core-1.3.1\AndroidManifest.xml:24:18-86
+34-->[androidx.core:core:1.3.1] /home/haider/.gradle/caches/transforms-2/files-2.1/4fcdfd5408c2bf0345a31b2aaa7c3a43/core-1.3.1/AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
 36        android:icon="@mipmap/ic_launcher"
-36-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:29:9-43
+36-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:29:9-43
 37        android:label="@string/app_name"
-37-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:30:9-41
+37-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:30:9-41
 38        android:networkSecurityConfig="@xml/network_security_config"
-38-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:31:9-69
+38-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:31:9-69
 39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:32:9-54
+39-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:32:9-54
 40        android:supportsRtl="true"
-40-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:33:9-35
+40-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:33:9-35
 41        android:testOnly="true"
 42        android:theme="@style/Theme.Dumb_deaf_system"
-42-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:34:9-54
+42-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:34:9-54
 43        android:usesCleartextTraffic="true" >
-43-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:35:9-44
+43-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:35:9-44
 44        <activity android:name="com.dumb.dumb_deaf_system.splashscreen2" />
-44-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:36:9-60
-44-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:36:19-48
+44-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:36:9-60
+44-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:36:19-48
 45
 46        <provider
 47            android:name="androidx.core.content.FileProvider"
-47-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:39:13-62
+47-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:39:13-62
 48            android:authorities="com.dumb.dumb_deaf_system.provider"
-48-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:40:13-60
+48-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:40:13-60
 49            android:exported="false"
-49-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:41:13-37
+49-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:41:13-37
 50            android:grantUriPermissions="true" >
-50-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:42:13-47
+50-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:42:13-47
 51            <meta-data
-51-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:43:13-45:58
+51-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:43:13-45:58
 52                android:name="android.support.FILE_PROVIDER_PATHS"
-52-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:44:17-67
+52-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:44:17-67
 53                android:resource="@xml/provider_paths" />
-53-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:45:17-55
+53-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:45:17-55
 54        </provider>
 55
 56        <activity android:name="com.dumb.dumb_deaf_system.authentications.otp_screen" />
-56-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:48:9-64
-56-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:48:19-61
-57        <activity
-57-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:49:9-51:81
-58            android:name="com.dumb.dumb_deaf_system.favorites.myfavourites"
-58-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:50:13-51
-59            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-59-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:51:13-78
-60        <activity
-60-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:52:9-54:81
-61            android:name="com.dumb.dumb_deaf_system.talk.my_requests"
-61-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:53:13-45
-62            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-62-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:54:13-78
-63        <activity
-63-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:55:9-57:81
-64            android:name="com.dumb.dumb_deaf_system.talk.mytalks"
-64-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:56:13-41
-65            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-65-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:57:13-78
-66        <activity
-66-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:58:9-60:81
-67            android:name="com.dumb.dumb_deaf_system.talk.requesttalk"
-67-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:59:13-45
-68            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-68-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:60:13-78
-69        <activity
-69-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:61:9-63:81
-70            android:name="com.dumb.dumb_deaf_system.profile.profile"
-70-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:62:13-44
-71            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-71-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:63:13-78
-72        <activity
-72-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:64:9-66:81
-73            android:name="com.dumb.dumb_deaf_system.talk.talks"
-73-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:65:13-39
-74            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-74-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:66:13-78
-75        <activity
-75-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:67:9-69:81
-76            android:name="com.dumb.dumb_deaf_system.talk.details"
-76-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:68:13-41
-77            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-77-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:69:13-78
-78        <activity
-78-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:70:9-72:81
-79            android:name="com.dumb.dumb_deaf_system.authentications.signup"
-79-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:71:13-51
-80            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-80-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:72:13-78
-81        <activity
-81-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:73:9-75:81
-82            android:name="com.dumb.dumb_deaf_system.authentications.Loginpage"
-82-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:74:13-54
-83            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-83-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:75:13-78
-84        <activity
-84-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:76:9-78:81
-85            android:name="com.dumb.dumb_deaf_system.MainActivity"
-85-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:77:13-41
-86            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-86-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:78:13-78
-87        <activity
-87-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:79:9-87:20
-88            android:name="com.dumb.dumb_deaf_system.splashscreen"
-88-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:80:13-41
-89            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
-89-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:81:13-78
-90            <intent-filter>
-90-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:82:13-86:29
-91                <action android:name="android.intent.action.MAIN" />
-91-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:83:17-69
-91-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:83:25-66
-92
-93                <category android:name="android.intent.category.LAUNCHER" />
-93-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:85:17-77
-93-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:85:27-74
-94            </intent-filter>
-95        </activity>
-96
-97        <meta-data
-97-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:89:9-91:57
-98            android:name="preloaded_fonts"
-98-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:90:13-43
-99            android:resource="@array/preloaded_fonts" />
-99-->C:\Users\Ali Pracha\StudioProjects\Dumb_deaf_system\app\src\main\AndroidManifest.xml:91:13-54
-100
-101        <provider
-101-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\78bb0e912000e1d5d153dffe375581bb\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-102            android:name="com.squareup.picasso.PicassoProvider"
-102-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\78bb0e912000e1d5d153dffe375581bb\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-103            android:authorities="com.dumb.dumb_deaf_system.com.squareup.picasso"
-103-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\78bb0e912000e1d5d153dffe375581bb\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-104            android:exported="false" />
-104-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\78bb0e912000e1d5d153dffe375581bb\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-105
-106        <service android:name="com.example.jean.jcplayer.service.JcPlayerService" />
-106-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:9-85
-106-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:18:18-82
-107
-108        <receiver
-108-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:20:9-23:40
-109            android:name="com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
-109-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:21:13-103
-110            android:enabled="true"
-110-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:22:13-35
-111            android:exported="false" />
-111-->[com.github.jeancsanchez:JcPlayer:2.7.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\a6573db867fd5bad1e3fa492ffe08d0b\jetified-JcPlayer-2.7.0\AndroidManifest.xml:23:13-37
-112
-113        <activity
-113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:27:9-44:20
-114            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-114-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:28:13-80
-115            android:excludeFromRecents="true"
-115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:29:13-46
-116            android:exported="true"
-116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:30:13-36
-117            android:launchMode="singleTask"
-117-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:31:13-44
-118            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-118-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:32:13-72
-119            <intent-filter>
-119-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:33:13-43:29
-120                <action android:name="android.intent.action.VIEW" />
-120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
-120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
-121
-122                <category android:name="android.intent.category.DEFAULT" />
-122-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-122-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
-123                <category android:name="android.intent.category.BROWSABLE" />
-123-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
-123-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
-124
-125                <data
-125-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
-126                    android:host="firebase.auth"
-126-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
-127                    android:path="/"
-127-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
-128                    android:scheme="genericidp" />
-128-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
-129            </intent-filter>
-130        </activity>
-131        <activity
-131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:45:9-62:20
-132            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-132-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:46:13-79
-133            android:excludeFromRecents="true"
-133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:47:13-46
-134            android:exported="true"
-134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:48:13-36
-135            android:launchMode="singleTask"
-135-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:49:13-44
-136            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-136-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:50:13-72
-137            <intent-filter>
-137-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:51:13-61:29
-138                <action android:name="android.intent.action.VIEW" />
-138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
-138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
-139
-140                <category android:name="android.intent.category.DEFAULT" />
-140-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-140-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
-141                <category android:name="android.intent.category.BROWSABLE" />
-141-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
-141-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
-142
-143                <data
-143-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
-144                    android:host="firebase.auth"
-144-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
-145                    android:path="/"
-145-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
-146                    android:scheme="recaptcha" />
-146-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
-147            </intent-filter>
-148        </activity>
-149
-150        <service
-150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:64:9-73:19
-151            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-151-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:65:13-101
-152            android:enabled="true"
-152-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:66:13-35
-153            android:exported="false" >
-153-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:67:13-37
-154            <intent-filter>
-154-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:68:13-72:29
-155                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-155-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:17-89
-155-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:25-86
+56-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:48:9-64
+56-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:48:19-61
+57        <activity android:name="com.dumb.dumb_deaf_system.favorites.myfavourites" />
+57-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:49:9-50:54
+57-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:50:13-51
+58        <activity android:name="com.dumb.dumb_deaf_system.talk.my_requests" />
+58-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:51:9-52:47
+58-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:52:13-45
+59        <activity android:name="com.dumb.dumb_deaf_system.talk.mytalks" />
+59-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:53:9-54:44
+59-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:54:13-41
+60        <activity android:name="com.dumb.dumb_deaf_system.talk.requesttalk" />
+60-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:55:9-56:48
+60-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:56:13-45
+61        <activity android:name="com.dumb.dumb_deaf_system.profile.profile" />
+61-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:57:9-58:47
+61-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:58:13-44
+62        <activity android:name="com.dumb.dumb_deaf_system.talk.talks" />
+62-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:59:9-60:42
+62-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:60:13-39
+63        <activity android:name="com.dumb.dumb_deaf_system.talk.details" />
+63-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:61:9-62:44
+63-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:62:13-41
+64        <activity android:name="com.dumb.dumb_deaf_system.authentications.signup" />
+64-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:63:9-64:54
+64-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:64:13-51
+65        <activity android:name="com.dumb.dumb_deaf_system.authentications.Loginpage" />
+65-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:65:9-66:57
+65-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:66:13-54
+66        <activity android:name="com.dumb.dumb_deaf_system.MainActivity" />
+66-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:67:9-68:44
+66-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:68:13-41
+67        <activity android:name="com.dumb.dumb_deaf_system.splashscreen" >
+67-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:69:9-76:20
+67-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:70:13-41
+68            <intent-filter>
+68-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:71:13-75:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:72:17-69
+69-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:72:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:74:17-77
+71-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:74:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <meta-data
+75-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:78:9-80:57
+76            android:name="preloaded_fonts"
+76-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:79:13-43
+77            android:resource="@array/preloaded_fonts" />
+77-->/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/src/main/AndroidManifest.xml:80:13-54
+78
+79        <provider
+79-->[com.squareup.picasso:picasso:2.71828] /home/haider/.gradle/caches/transforms-2/files-2.1/f9a1c0847d2739787dbb6b3d4c3717d7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+80            android:name="com.squareup.picasso.PicassoProvider"
+80-->[com.squareup.picasso:picasso:2.71828] /home/haider/.gradle/caches/transforms-2/files-2.1/f9a1c0847d2739787dbb6b3d4c3717d7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+81            android:authorities="com.dumb.dumb_deaf_system.com.squareup.picasso"
+81-->[com.squareup.picasso:picasso:2.71828] /home/haider/.gradle/caches/transforms-2/files-2.1/f9a1c0847d2739787dbb6b3d4c3717d7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+82            android:exported="false" />
+82-->[com.squareup.picasso:picasso:2.71828] /home/haider/.gradle/caches/transforms-2/files-2.1/f9a1c0847d2739787dbb6b3d4c3717d7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+83
+84        <service android:name="com.example.jean.jcplayer.service.JcPlayerService" />
+84-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:18:9-85
+84-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:18:18-82
+85
+86        <receiver
+86-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:20:9-23:40
+87            android:name="com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
+87-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:21:13-103
+88            android:enabled="true"
+88-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:22:13-35
+89            android:exported="false" />
+89-->[com.github.jeancsanchez:JcPlayer:2.7.0] /home/haider/.gradle/caches/transforms-2/files-2.1/c052b183e0417a58ff835d44c7a6122d/jetified-JcPlayer-2.7.0/AndroidManifest.xml:23:13-37
+90
+91        <activity
+91-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+92            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+92-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+106                    android:scheme="genericidp" />
+106-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+110            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+110-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+120
+121                <data
+121-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+124                    android:scheme="recaptcha" />
+124-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127
+128        <service
+128-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+129            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+129-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+130            android:enabled="true"
+130-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+133                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+133-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+133-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+135-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:74:9-80:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:75:13-84
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:76:13-37
+142            <meta-data
+142-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+143                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+143-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-auth:20.0.2] /home/haider/.gradle/caches/transforms-2/files-2.1/4cf738295ac4be7ae0036f1ace73b66c/jetified-firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/651e383443f0fe78ff352278ab6ff96d/jetified-firebase-storage-19.2.1/AndroidManifest.xml:33:13-35:85
+146                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+146-->[com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/651e383443f0fe78ff352278ab6ff96d/jetified-firebase-storage-19.2.1/AndroidManifest.xml:34:17-107
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-storage:19.2.1] /home/haider/.gradle/caches/transforms-2/files-2.1/651e383443f0fe78ff352278ab6ff96d/jetified-firebase-storage-19.2.1/AndroidManifest.xml:35:17-82
+148            <!--
+149                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+150                clients to use it as well, by defining this registrar in their own core/common library.
+151            -->
+152            <meta-data
+152-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+153                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+153-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+155        </service>
 156
-157                <category android:name="android.intent.category.DEFAULT" />
-157-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
-157-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
-158            </intent-filter>
-159        </service>
-160        <service
-160-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:74:9-80:19
-161            android:name="com.google.firebase.components.ComponentDiscoveryService"
-161-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:75:13-84
-162            android:directBootAware="true"
-162-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-163            android:exported="false" >
-163-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:76:13-37
-164            <meta-data
-164-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:77:13-79:85
-165                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-165-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:78:17-109
-166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\87fddb95effd391005dd9334e7091c58\jetified-firebase-auth-20.0.2\AndroidManifest.xml:79:17-82
-167            <meta-data
-167-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:33:13-35:85
-168                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-168-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:34:17-107
-169                android:value="com.google.firebase.components.ComponentRegistrar" />
-169-->[com.google.firebase:firebase-storage:19.2.1] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\d895dadeec8360211000d269c2bd483a\jetified-firebase-storage-19.2.1\AndroidManifest.xml:35:17-82
-170            <!--
-171                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-172                clients to use it as well, by defining this registrar in their own core/common library.
-173            -->
-174            <meta-data
-174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-175                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-176                android:value="com.google.firebase.components.ComponentRegistrar" />
-176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-177        </service>
-178
-179        <provider
-179-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-180            android:name="com.google.firebase.provider.FirebaseInitProvider"
-180-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-181            android:authorities="com.dumb.dumb_deaf_system.firebaseinitprovider"
-181-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-182            android:directBootAware="true"
-182-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-183            android:exported="false"
-183-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-184            android:initOrder="100" />
-184-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\91af00a0d0594750f4fe174efc6f397a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-185
-186        <activity
-186-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-187            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-187-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-188            android:exported="false"
-188-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-189-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\8afe1bc2b4a08bc0aad7eca19654ad1f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-190
-191        <meta-data
-191-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-192            android:name="com.google.android.gms.version"
-192-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-193            android:value="@integer/google_play_services_version" />
-193-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ali Pracha\.gradle\caches\transforms-2\files-2.1\f3cce95dc893a0d8f5ac34eb9ef18544\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-194    </application>
-195
-196</manifest>
+157        <provider
+157-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+158            android:name="com.google.firebase.provider.FirebaseInitProvider"
+158-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+159            android:authorities="com.dumb.dumb_deaf_system.firebaseinitprovider"
+159-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+160            android:directBootAware="true"
+160-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+161            android:exported="false"
+161-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+162            android:initOrder="100" />
+162-->[com.google.firebase:firebase-common:19.5.0] /home/haider/.gradle/caches/transforms-2/files-2.1/750e4f483e4eae9c148c381fe73101ab/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+163
+164        <activity
+164-->[com.google.android.gms:play-services-base:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/cff11ddacb7f483cb69fc63af1e88ffb/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+165            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+165-->[com.google.android.gms:play-services-base:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/cff11ddacb7f483cb69fc63af1e88ffb/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-base:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/cff11ddacb7f483cb69fc63af1e88ffb/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-base:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/cff11ddacb7f483cb69fc63af1e88ffb/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/760b0f43422b1dffb9280b63deb5c4f9/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/760b0f43422b1dffb9280b63deb5c4f9/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:17.1.0] /home/haider/.gradle/caches/transforms-2/files-2.1/760b0f43422b1dffb9280b63deb5c4f9/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+172    </application>
+173
+174</manifest>

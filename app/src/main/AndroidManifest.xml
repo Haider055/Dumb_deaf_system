@@ -47,38 +47,27 @@
 
         <activity android:name=".authentications.otp_screen" />
         <activity
-            android:name=".favorites.myfavourites"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".favorites.myfavourites" />
         <activity
-            android:name=".talk.my_requests"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".talk.my_requests"/>
         <activity
-            android:name=".talk.mytalks"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".talk.mytalks" />
         <activity
-            android:name=".talk.requesttalk"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".talk.requesttalk" />
         <activity
-            android:name=".profile.profile"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".profile.profile" />
         <activity
-            android:name=".talk.talks"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".talk.talks" />
         <activity
-            android:name=".talk.details"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".talk.details" />
         <activity
-            android:name=".authentications.signup"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".authentications.signup" />
         <activity
-            android:name=".authentications.Loginpage"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".authentications.Loginpage" />
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:name=".MainActivity" />
         <activity
-            android:name=".splashscreen"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

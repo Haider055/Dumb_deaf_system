@@ -85,13 +85,13 @@ com/dumb/dumb_deaf_system/profile/profile.java
  com.dumb.dumb_deaf_system.profile.profile$7
  com.dumb.dumb_deaf_system.profile.profile$8
  com.dumb.dumb_deaf_system.profile.profile$9
-com/dumb/dumb_deaf_system/Network/RetrofitClass.java
- com.dumb.dumb_deaf_system.Network.RetrofitClass
 com/dumb/dumb_deaf_system/talk/my_requests.java
  com.dumb.dumb_deaf_system.talk.my_requests
  com.dumb.dumb_deaf_system.talk.my_requests$1
  com.dumb.dumb_deaf_system.talk.my_requests$2
  com.dumb.dumb_deaf_system.talk.my_requests$3
+com/dumb/dumb_deaf_system/Network/RetrofitClass.java
+ com.dumb.dumb_deaf_system.Network.RetrofitClass
 com/dumb/dumb_deaf_system/models/model_mytalks.java
  com.dumb.dumb_deaf_system.models.model_mytalks
 com/dumb/dumb_deaf_system/models/modelGetDataByLogin.java
@@ -113,15 +113,15 @@ com/dumb/dumb_deaf_system/Adapters/adapter_talks_By_Cat.java
  com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat$ontalkclick
 com/dumb/dumb_deaf_system/splashscreen2.java
  com.dumb.dumb_deaf_system.splashscreen2
-com/dumb/dumb_deaf_system/preferance/sharedpreferance.java
- com.dumb.dumb_deaf_system.preferance.sharedpreferance
+com/dumb/dumb_deaf_system/models/model_myrequests.java
+ com.dumb.dumb_deaf_system.models.model_myrequests
 com/dumb/dumb_deaf_system/Network/dbhandler.java
  com.dumb.dumb_deaf_system.Network.dbhandler
-com/dumb/dumb_deaf_system/fragments/no_personal_talks.java
- com.dumb.dumb_deaf_system.fragments.no_personal_talks
 com/dumb/dumb_deaf_system/Adapters/adapter_myrequests.java
  com.dumb.dumb_deaf_system.Adapters.adapter_myrequests
  com.dumb.dumb_deaf_system.Adapters.adapter_myrequests$holder
+com/dumb/dumb_deaf_system/fragments/no_personal_talks.java
+ com.dumb.dumb_deaf_system.fragments.no_personal_talks
 com/dumb/dumb_deaf_system/Network/apis.java
  com.dumb.dumb_deaf_system.Network.apis
 com/dumb/dumb_deaf_system/Adapters/AdapterCategories.java
@@ -143,8 +143,8 @@ com/dumb/dumb_deaf_system/fragments/no_requests.java
 com/dumb/dumb_deaf_system/favorites/myfavourites.java
  com.dumb.dumb_deaf_system.favorites.myfavourites
  com.dumb.dumb_deaf_system.favorites.myfavourites$1
-com/dumb/dumb_deaf_system/models/model_myrequests.java
- com.dumb.dumb_deaf_system.models.model_myrequests
+com/dumb/dumb_deaf_system/preferance/sharedpreferance.java
+ com.dumb.dumb_deaf_system.preferance.sharedpreferance
 com/dumb/dumb_deaf_system/talk/mytalks.java
  com.dumb.dumb_deaf_system.talk.mytalks
  com.dumb.dumb_deaf_system.talk.mytalks$1
