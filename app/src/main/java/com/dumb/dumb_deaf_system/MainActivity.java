@@ -97,7 +97,9 @@ public class MainActivity extends AppCompatActivity implements AdapterCategories
 
         //bindings
         toolbar=findViewById(R.id.tool);
+
         setSupportActionBar(toolbar);
+
         drawerLayout=findViewById(R.id.drawer);
         navigationView=findViewById(R.id.navigation);
         SharedPreferences sharedPreferences=getSharedPreferences(MY_INFO,MODE_PRIVATE);

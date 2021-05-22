@@ -54,39 +54,17 @@
         </provider>
 
         <activity android:name="com.dumb.dumb_deaf_system.authentications.otp_screen" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.favorites.myfavourites"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.talk.my_requests"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.talk.mytalks"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.talk.requesttalk"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.profile.profile"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.talk.talks"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.talk.details"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.authentications.signup"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.authentications.Loginpage"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.MainActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
-        <activity
-            android:name="com.dumb.dumb_deaf_system.splashscreen"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+        <activity android:name="com.dumb.dumb_deaf_system.favorites.myfavourites" />
+        <activity android:name="com.dumb.dumb_deaf_system.talk.my_requests" />
+        <activity android:name="com.dumb.dumb_deaf_system.talk.mytalks" />
+        <activity android:name="com.dumb.dumb_deaf_system.talk.requesttalk" />
+        <activity android:name="com.dumb.dumb_deaf_system.profile.profile" />
+        <activity android:name="com.dumb.dumb_deaf_system.talk.talks" />
+        <activity android:name="com.dumb.dumb_deaf_system.talk.details" />
+        <activity android:name="com.dumb.dumb_deaf_system.authentications.signup" />
+        <activity android:name="com.dumb.dumb_deaf_system.authentications.Loginpage" />
+        <activity android:name="com.dumb.dumb_deaf_system.MainActivity" />
+        <activity android:name="com.dumb.dumb_deaf_system.splashscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

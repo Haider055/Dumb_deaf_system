@@ -67,7 +67,7 @@ public interface apis {
 
     @FormUrlEncoded
     @POST("request.php")
-    Call<String> request(@Field("id") String id, @Field("viewer") String viewer,@Field("title") String title,@Field("description") String description,@Field("audio") String audio,@Field("gif") String gif,@Field("video") String video,@Field("category") String category);
+    Call<String> request(@Field("id") String id, @Field("viewer") String viewer,@Field("title") String title,@Field("description") String description,@Field("audio") String audio,@Field("gif") String gif,@Field("video") String video,@Field("category") String category, @Field("urdu") String urdu);
 
     @FormUrlEncoded
     @POST("showMyData.php")

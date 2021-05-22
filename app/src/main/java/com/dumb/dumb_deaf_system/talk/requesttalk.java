@@ -39,7 +39,7 @@ import retrofit2.Response;
 
 public class requesttalk extends AppCompatActivity {
 
-    EditText title,detail;
+    EditText title,detail,urdu;
 
     private static final String MY_INFO = "MYINFO";
     RadioGroup radio,radioselect;
@@ -227,6 +227,8 @@ public class requesttalk extends AppCompatActivity {
 
         title=findViewById(R.id.title);
         detail=findViewById(R.id.detail);
+        urdu=findViewById(R.id.urdu);
+
         radio=findViewById(R.id.radio);
         radioselect=findViewById(R.id.radios);
         submit=findViewById(R.id.submit);
@@ -371,8 +373,8 @@ public class requesttalk extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (title.getText().toString().isEmpty()){
-                    title.setError("Enter title");
+                if (title.getText().toString().isEmpty()&& urdu.getText().toString().isEmpty()){
+                    Toast.makeText(requesttalk.this, "Enter title in ENG or URDU", Toast.LENGTH_SHORT).show();;
                 }
                 if (detail.getText().toString().isEmpty()){
                     detail.setError("Enter title");
@@ -389,14 +391,15 @@ public class requesttalk extends AppCompatActivity {
                 if (title.getText().toString().isEmpty()||detail.getText().toString().isEmpty()||type.equals("")||category.equals("")||category.equals("Select category")){
                 }
                 else {
-                    String titles,details;
+                    String titles,details,urdus;
                     titles=title.getText().toString();
                     details=detail.getText().toString();
+                    urdus=detail.getText().toString();
 
                     SharedPreferences shared=getSharedPreferences(MY_INFO,MODE_PRIVATE);
                     String id=shared.getString("id","");
 
-                    Call<String> apirequest= RetrofitClass.getInstanceScaler().request(id,type,titles,details,audiourl,imageurl,videourl,category);
+                    Call<String> apirequest= RetrofitClass.getInstanceScaler().request(id,type,titles,details,audiourl,imageurl,videourl,category,urdus);
 
                     apirequest.enqueue(new Callback<String>() {
                         @Override
@@ -405,6 +408,7 @@ public class requesttalk extends AppCompatActivity {
                                 Toast.makeText(requesttalk.this," Requested", Toast.LENGTH_SHORT).show();
                                 title.setText("");
                                 detail.setText("");
+                                urdu.setText("");
                                 onBackPressed();
                             }
                         }

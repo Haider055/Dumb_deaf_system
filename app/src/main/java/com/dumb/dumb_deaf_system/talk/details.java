@@ -86,7 +86,8 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
     @Override
     protected void onStart() {
         super.onStart();
-        player.pause();
+//        player.pause();
+        voicePlayerView.continueAudio();
     }
 
     @Override
@@ -151,10 +152,20 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         share=findViewById(R.id.share);
 
 //String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
+        if (title.isEmpty()){}
+        else {
         toolbar.setTitle(title.substring(0, 1).toUpperCase()+ title.substring(1));
         head.setText(title.substring(0, 1).toUpperCase()+ title.substring(1));
+        }
+        if (details.isEmpty()){}
+        else {
         detail.setText(details.substring(0, 1).toUpperCase()+ details.substring(1));
+        }
+
+        if (urdu.isEmpty()){}
+        else {
         urdu_desc.setText(urdu);
+        }
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -221,6 +232,7 @@ public class details extends AppCompatActivity implements adapter_talks_By_Cat.o
         voicePlayerView.setJcPlayerManagerListener(new JcPlayerManagerListener() {
             @Override
             public void onPreparedAudio(@NotNull JcStatus jcStatus) {
+
 
             }
 

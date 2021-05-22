@@ -9,13 +9,14 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class RetrofitClass {
 
-    private static final String BASE_URL_SITE = "http://nationcargoservice.com/deafSport/Api/";
+    private static final String BASE_URL_SITE = "https://anoweb.co/deaf/Api/";
 
 //    public static final String BASE_URL = BASE_URL_SITE + "Api/";
 
 //    public static final String ImageCheck = BASE_URL_SITE+"images/";
 
     private static apis apis;
+
     public static apis getInstanceGson() {
 
         Gson gson = new GsonBuilder()
@@ -29,9 +30,6 @@ public class RetrofitClass {
 
         apis = retrofit.create(apis.class);
         return apis;
-
-
-
 
     }
     public static apis getInstanceScaler() {
