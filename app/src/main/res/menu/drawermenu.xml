@@ -22,17 +22,18 @@
             android:checkable="true"
             android:title="Request a Talk">
         </item>
-        <item
-            android:icon="@drawable/ic_baseline_person_pin_24"
-            android:id="@+id/my"
-            android:checkable="true"
-            android:title="Personal Talks">
-        </item>
+
         <item
             android:icon="@drawable/ic_baseline_playlist_add_24"
             android:id="@+id/myrequest"
             android:checkable="true"
             android:title="My requests">
+        </item>
+        <item
+            android:icon="@drawable/ic_baseline_person_pin_24"
+            android:id="@+id/my"
+            android:checkable="true"
+            android:title="Personal Talks">
         </item>
         <item
             android:icon="@drawable/ic_baseline_favorite_24"

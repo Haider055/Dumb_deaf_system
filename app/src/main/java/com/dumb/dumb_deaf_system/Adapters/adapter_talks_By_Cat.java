@@ -1,12 +1,12 @@
 package com.dumb.dumb_deaf_system.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,26 +16,68 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.dumb.dumb_deaf_system.Network.dbhandler;
 import com.dumb.dumb_deaf_system.R;
 import com.dumb.dumb_deaf_system.models.model_Talksby_Cat;
+import com.dumb.dumb_deaf_system.models.modelcategories;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_Cat.holder> {
+public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_Cat.holder> implements Filterable {
+
+    Context context;
+    List<model_Talksby_Cat> filterlistArray;
+
 
     List<model_Talksby_Cat> list;
-    Context context;
     ontalkclick montalk;
 
     public void onclick(ontalkclick montalk){
         this.montalk=montalk;
     }
 
+    @Override
+    public Filter getFilter() {
+        return listFilter;
+    }
+
+
+
     public interface ontalkclick{
         public void ontalksclick(String id,String file_type,String description,String category,String date,String gif,String video,String audio,String urdu_description,String title);
     }
 
+    private Filter listFilter=new Filter(){
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            ArrayList<model_Talksby_Cat> filteredList=new ArrayList<>();
+            if(constraint==null || constraint.length()==0){
+                filteredList.addAll(filterlistArray);
+            }
+            else{
+                String filterInput=constraint.toString().toLowerCase().trim();
+                for(model_Talksby_Cat listModels:filterlistArray){
+                    if(listModels.getTitle().toLowerCase().contains(filterInput))
+                    {
+                        filteredList.add(listModels);
+                    }
+                }
+            }
+            FilterResults filterResults=new FilterResults();
+            filterResults.values=filteredList;
+            return filterResults;
+        }
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            list.clear();
+            list.addAll((ArrayList)results.values);
+            notifyDataSetChanged();
+        }
+    };
+
+
     public adapter_talks_By_Cat(List<model_Talksby_Cat> list, Context context) {
         this.list = list;
         this.context = context;
+        this.filterlistArray = new ArrayList<>(list);
     }
 
     @NonNull

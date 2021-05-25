@@ -71,7 +71,9 @@ public class Loginpage extends AppCompatActivity {
                 if (password.getText().toString().isEmpty()){
                     password.setError("Enter Password");
                 }
-                if (email.getText().toString().isEmpty()||password.getText().toString().isEmpty()){}
+                if (email.getText().toString().isEmpty()||password.getText().toString().isEmpty()){
+
+                }
                 else {
 
                     Call<String> api1=RetrofitClass.getInstanceScaler().login(emails, passwords);

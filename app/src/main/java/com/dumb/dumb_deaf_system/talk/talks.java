@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.Toolbar;
 
 import com.dumb.dumb_deaf_system.Adapters.adapter_talks_By_Cat;
@@ -29,6 +30,7 @@ import retrofit2.Response;
 
 public class talks extends AppCompatActivity implements adapter_talks_By_Cat.ontalkclick{
 
+    SearchView searchView;
     ImageView imageView;
     Toolbar toolbar;
     String category="";
@@ -54,6 +56,8 @@ public class talks extends AppCompatActivity implements adapter_talks_By_Cat.ont
 
         toolbar=findViewById(R.id.tool);
 
+        searchView=findViewById(R.id.search);
+
         recyclerView=findViewById(R.id.rec);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -61,6 +65,14 @@ public class talks extends AppCompatActivity implements adapter_talks_By_Cat.ont
             public void onClick(View v) {
                 onBackPressed();
 //                startActivity(new Intent(talks.this,MainActivity.class));
+            }
+        });
+
+        searchView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                searchView.setIconified(true);
+                searchView.onActionViewExpanded();
             }
         });
 
@@ -86,6 +98,23 @@ public class talks extends AppCompatActivity implements adapter_talks_By_Cat.ont
             public void onRefresh() {
                 getdata();
                 pullToRefresh.setRefreshing(false);
+            }
+        });
+
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                if (adapter!=null){
+                    adapter.getFilter().filter(newText);
+                }
+                return false ;
             }
         });
 
@@ -119,6 +148,9 @@ public class talks extends AppCompatActivity implements adapter_talks_By_Cat.ont
                 }
             });
         }
+
+
+
 
         }
 

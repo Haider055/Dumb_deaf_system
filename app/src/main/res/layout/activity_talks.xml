@@ -21,7 +21,13 @@
         android:layout_height="wrap_content">
     </Toolbar>
 
-
+        <SearchView
+            android:id="@+id/search"
+            android:background="@drawable/search_background"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </SearchView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec"
