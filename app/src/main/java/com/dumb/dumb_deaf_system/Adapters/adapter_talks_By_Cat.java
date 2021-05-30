@@ -39,8 +39,6 @@ public class adapter_talks_By_Cat extends RecyclerView.Adapter<adapter_talks_By_
         return listFilter;
     }
 
-
-
     public interface ontalkclick{
         public void ontalksclick(String id,String file_type,String description,String category,String date,String gif,String video,String audio,String urdu_description,String title);
     }
