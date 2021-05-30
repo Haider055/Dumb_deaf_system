@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "E:\\haider3\\AndroidStudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/e99c065926bff3fbb7d84c77f817cbf2/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\494d6d7fc35606be09c3e24665cbe207\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/haider/AndroidStudioProjects/Dumb_deaf_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w550dp-land-v13/values-w550dp-land-v13.xml",
+            "outputFile": "E:\\haider3\\AndroidStudioProjects\\Dumb_deaf_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/haider/.gradle/caches/transforms-2/files-2.1/97ba851eeae9dbf155fc32a905518236/material-1.3.0/res/values-w550dp-land-v13/values-w550dp-land-v13.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\cd1c8c4e1e97064cdffe7dae81a0cd22\\material-1.3.0\\res\\values-w550dp-land-v13\\values-w550dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

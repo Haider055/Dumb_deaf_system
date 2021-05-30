@@ -34,14 +34,12 @@ public class RetrofitClass {
     }
     public static apis getInstanceScaler() {
 
-
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL_SITE)
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .build();
 
             apis = retrofit.create(apis.class);
-
             return apis;
 
     }

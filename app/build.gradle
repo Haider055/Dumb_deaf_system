@@ -32,7 +32,6 @@ android {
 dependencies {
 
     implementation 'com.github.mukeshsolanki:android-otpview-pinview:+'
-
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     //retrofit
